@@ -41,6 +41,8 @@ namespace HelperToolRenovado
             this.checkBoxUnistallOneDrive = new System.Windows.Forms.CheckBox();
             this.checkBoxDisableFirewall = new System.Windows.Forms.CheckBox();
             this.checkBoxDisableRunasAdmin = new System.Windows.Forms.CheckBox();
+            this.checkBoxDisableNotifications = new System.Windows.Forms.CheckBox();
+            this.checkBoxDisableDefender = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnCheckAll_Advanced
@@ -67,9 +69,9 @@ namespace HelperToolRenovado
             this.btnGoAdvancedOptions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGoAdvancedOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGoAdvancedOptions.ForeColor = System.Drawing.Color.White;
-            this.btnGoAdvancedOptions.Location = new System.Drawing.Point(22, 566);
+            this.btnGoAdvancedOptions.Location = new System.Drawing.Point(16, 566);
             this.btnGoAdvancedOptions.Name = "btnGoAdvancedOptions";
-            this.btnGoAdvancedOptions.Size = new System.Drawing.Size(859, 59);
+            this.btnGoAdvancedOptions.Size = new System.Drawing.Size(871, 59);
             this.btnGoAdvancedOptions.TabIndex = 43;
             this.btnGoAdvancedOptions.TabStop = false;
             this.btnGoAdvancedOptions.Text = "GO!";
@@ -215,11 +217,41 @@ namespace HelperToolRenovado
             this.checkBoxDisableRunasAdmin.UseVisualStyleBackColor = true;
             this.checkBoxDisableRunasAdmin.CheckStateChanged += new System.EventHandler(this.Checkear);
             // 
+            // checkBoxDisableNotifications
+            // 
+            this.checkBoxDisableNotifications.AutoSize = true;
+            this.checkBoxDisableNotifications.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDisableNotifications.ForeColor = System.Drawing.Color.White;
+            this.checkBoxDisableNotifications.Location = new System.Drawing.Point(22, 321);
+            this.checkBoxDisableNotifications.Name = "checkBoxDisableNotifications";
+            this.checkBoxDisableNotifications.Size = new System.Drawing.Size(324, 24);
+            this.checkBoxDisableNotifications.TabIndex = 49;
+            this.checkBoxDisableNotifications.TabStop = false;
+            this.checkBoxDisableNotifications.Text = "- Disable all Windows notifications";
+            this.checkBoxDisableNotifications.UseVisualStyleBackColor = true;
+            this.checkBoxDisableNotifications.CheckStateChanged += new System.EventHandler(this.Checkear);
+            // 
+            // checkBoxDisableDefender
+            // 
+            this.checkBoxDisableDefender.AutoSize = true;
+            this.checkBoxDisableDefender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDisableDefender.ForeColor = System.Drawing.Color.White;
+            this.checkBoxDisableDefender.Location = new System.Drawing.Point(22, 351);
+            this.checkBoxDisableDefender.Name = "checkBoxDisableDefender";
+            this.checkBoxDisableDefender.Size = new System.Drawing.Size(272, 24);
+            this.checkBoxDisableDefender.TabIndex = 50;
+            this.checkBoxDisableDefender.TabStop = false;
+            this.checkBoxDisableDefender.Text = "- Disable Windows Defender";
+            this.checkBoxDisableDefender.UseVisualStyleBackColor = true;
+            this.checkBoxDisableDefender.CheckStateChanged += new System.EventHandler(this.Checkear);
+            // 
             // VistaAdvancedControls
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(49)))));
+            this.Controls.Add(this.checkBoxDisableDefender);
+            this.Controls.Add(this.checkBoxDisableNotifications);
             this.Controls.Add(this.checkBoxDisableRunasAdmin);
             this.Controls.Add(this.checkBoxDisableFirewall);
             this.Controls.Add(this.checkBoxUnistallOneDrive);
@@ -253,5 +285,7 @@ namespace HelperToolRenovado
         private System.Windows.Forms.CheckBox checkBoxUnistallOneDrive;
         private System.Windows.Forms.CheckBox checkBoxDisableFirewall;
         private System.Windows.Forms.CheckBox checkBoxDisableRunasAdmin;
+        private System.Windows.Forms.CheckBox checkBoxDisableNotifications;
+        private System.Windows.Forms.CheckBox checkBoxDisableDefender;
     }
 }

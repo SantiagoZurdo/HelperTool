@@ -93,7 +93,7 @@ namespace HelperToolRenovado
                     }
                 }
                 DialogResult mensajeActivacion;
-                mensajeActivacion = MessageBox.Show("Are you sure you want to activate " + "(" + (windowsVersion) + ")", "HelperTool Message.", MessageBoxButtons.YesNo);
+                mensajeActivacion = MessageBox.Show("Are you sure you want to activate " + "(" + (windowsVersion) + ")", "HelperTool Message.", MessageBoxButtons.YesNo,MessageBoxIcon.Exclamation);
                 if (mensajeActivacion == System.Windows.Forms.DialogResult.Yes)
                 {
                     Navigate.Navegar("VistaCarga");
@@ -116,7 +116,7 @@ namespace HelperToolRenovado
                        + "\n"
                        + "Windows 10 Enterprise & Windows 11 Enterprise"
                        + "\n"
-                       + "Windows 10 Education & Windows 11 Education.", "HelperTool Error!.", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                       + "Windows 10 Education & Windows 11 Education.", "HelperTool Error!.", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
