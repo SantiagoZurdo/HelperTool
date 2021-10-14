@@ -29,7 +29,6 @@ namespace HelperToolRenovado
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCheckAll = new System.Windows.Forms.Button();
             this.checkDisableSearch = new System.Windows.Forms.CheckBox();
             this.checkDisableSysM = new System.Windows.Forms.CheckBox();
             this.checkDisablePushN = new System.Windows.Forms.CheckBox();
@@ -42,28 +41,14 @@ namespace HelperToolRenovado
             this.checkClearCache = new System.Windows.Forms.CheckBox();
             this.checkDisableServices = new System.Windows.Forms.CheckBox();
             this.checkDeleteTempFiles = new System.Windows.Forms.CheckBox();
-            this.btnOptmizeNow = new System.Windows.Forms.Button();
-            this.btnRollback = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnUncheckAll = new System.Windows.Forms.Button();
             this.checkClearRecyclebin = new System.Windows.Forms.CheckBox();
+            this.lblCheckAll = new System.Windows.Forms.Label();
+            this.rjToggleButton1 = new HelperToolRenovado.ToggleButton();
+            this.lblUncheckAll = new System.Windows.Forms.Label();
+            this.btnOptmizeNow = new HelperToolRenovado.FlatButton();
+            this.btnRollback2 = new HelperToolRenovado.FlatButton();
             this.SuspendLayout();
-            // 
-            // btnCheckAll
-            // 
-            this.btnCheckAll.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnCheckAll.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCheckAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCheckAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCheckAll.ForeColor = System.Drawing.Color.White;
-            this.btnCheckAll.Location = new System.Drawing.Point(381, 517);
-            this.btnCheckAll.Name = "btnCheckAll";
-            this.btnCheckAll.Size = new System.Drawing.Size(126, 35);
-            this.btnCheckAll.TabIndex = 42;
-            this.btnCheckAll.TabStop = false;
-            this.btnCheckAll.Text = "Check All";
-            this.btnCheckAll.UseVisualStyleBackColor = true;
-            this.btnCheckAll.Click += new System.EventHandler(this.btnCheckAll_Click);
             // 
             // checkDisableSearch
             // 
@@ -233,38 +218,6 @@ namespace HelperToolRenovado
             this.checkDeleteTempFiles.UseVisualStyleBackColor = true;
             this.checkDeleteTempFiles.CheckStateChanged += new System.EventHandler(this.Checkear);
             // 
-            // btnOptmizeNow
-            // 
-            this.btnOptmizeNow.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOptmizeNow.Enabled = false;
-            this.btnOptmizeNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOptmizeNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOptmizeNow.ForeColor = System.Drawing.Color.White;
-            this.btnOptmizeNow.Location = new System.Drawing.Point(13, 571);
-            this.btnOptmizeNow.Name = "btnOptmizeNow";
-            this.btnOptmizeNow.Size = new System.Drawing.Size(873, 59);
-            this.btnOptmizeNow.TabIndex = 41;
-            this.btnOptmizeNow.TabStop = false;
-            this.btnOptmizeNow.Text = "Optimize Now";
-            this.btnOptmizeNow.UseVisualStyleBackColor = true;
-            this.btnOptmizeNow.Click += new System.EventHandler(this.btnOptmizeNow_Click);
-            // 
-            // btnRollback
-            // 
-            this.btnRollback.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRollback.Enabled = false;
-            this.btnRollback.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRollback.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRollback.ForeColor = System.Drawing.Color.LightCoral;
-            this.btnRollback.Location = new System.Drawing.Point(16, 529);
-            this.btnRollback.Name = "btnRollback";
-            this.btnRollback.Size = new System.Drawing.Size(112, 36);
-            this.btnRollback.TabIndex = 40;
-            this.btnRollback.TabStop = false;
-            this.btnRollback.Text = "Rollback";
-            this.btnRollback.UseVisualStyleBackColor = true;
-            this.btnRollback.Click += new System.EventHandler(this.btnRollback_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -275,21 +228,6 @@ namespace HelperToolRenovado
             this.label1.Size = new System.Drawing.Size(241, 33);
             this.label1.TabIndex = 39;
             this.label1.Text = "Optimize Options";
-            // 
-            // btnUncheckAll
-            // 
-            this.btnUncheckAll.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUncheckAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUncheckAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUncheckAll.ForeColor = System.Drawing.Color.White;
-            this.btnUncheckAll.Location = new System.Drawing.Point(381, 517);
-            this.btnUncheckAll.Name = "btnUncheckAll";
-            this.btnUncheckAll.Size = new System.Drawing.Size(126, 35);
-            this.btnUncheckAll.TabIndex = 43;
-            this.btnUncheckAll.TabStop = false;
-            this.btnUncheckAll.Text = "Uncheck All";
-            this.btnUncheckAll.UseVisualStyleBackColor = true;
-            this.btnUncheckAll.Click += new System.EventHandler(this.btnUncheckAll_Click);
             // 
             // checkClearRecyclebin
             // 
@@ -305,13 +243,101 @@ namespace HelperToolRenovado
             this.checkClearRecyclebin.UseVisualStyleBackColor = true;
             this.checkClearRecyclebin.CheckStateChanged += new System.EventHandler(this.Checkear);
             // 
+            // lblCheckAll
+            // 
+            this.lblCheckAll.AutoSize = true;
+            this.lblCheckAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCheckAll.ForeColor = System.Drawing.Color.White;
+            this.lblCheckAll.Location = new System.Drawing.Point(54, 509);
+            this.lblCheckAll.Name = "lblCheckAll";
+            this.lblCheckAll.Size = new System.Drawing.Size(80, 20);
+            this.lblCheckAll.TabIndex = 58;
+            this.lblCheckAll.Text = "Check All";
+            // 
+            // rjToggleButton1
+            // 
+            this.rjToggleButton1.AutoSize = true;
+            this.rjToggleButton1.Location = new System.Drawing.Point(148, 507);
+            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.Name = "rjToggleButton1";
+            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
+            this.rjToggleButton1.OffBackColor1 = System.Drawing.Color.Gray;
+            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.rjToggleButton1.OffToggleColor1 = System.Drawing.Color.Gainsboro;
+            this.rjToggleButton1.OnBackColor = System.Drawing.SystemColors.Highlight;
+            this.rjToggleButton1.OnBackColor1 = System.Drawing.SystemColors.Highlight;
+            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.rjToggleButton1.OnToggleColor1 = System.Drawing.Color.WhiteSmoke;
+            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.SolidStyle1 = true;
+            this.rjToggleButton1.TabIndex = 57;
+            this.rjToggleButton1.UseVisualStyleBackColor = true;
+            this.rjToggleButton1.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
+            // 
+            // lblUncheckAll
+            // 
+            this.lblUncheckAll.AutoSize = true;
+            this.lblUncheckAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUncheckAll.ForeColor = System.Drawing.Color.White;
+            this.lblUncheckAll.Location = new System.Drawing.Point(33, 509);
+            this.lblUncheckAll.Name = "lblUncheckAll";
+            this.lblUncheckAll.Size = new System.Drawing.Size(101, 20);
+            this.lblUncheckAll.TabIndex = 59;
+            this.lblUncheckAll.Text = "UnCheck All";
+            this.lblUncheckAll.Visible = false;
+            // 
+            // btnOptmizeNow
+            // 
+            this.btnOptmizeNow.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnOptmizeNow.BackgroundColor = System.Drawing.SystemColors.Highlight;
+            this.btnOptmizeNow.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnOptmizeNow.BorderRadius = 20;
+            this.btnOptmizeNow.BorderSize = 0;
+            this.btnOptmizeNow.Enabled = false;
+            this.btnOptmizeNow.FlatAppearance.BorderSize = 0;
+            this.btnOptmizeNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOptmizeNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOptmizeNow.ForeColor = System.Drawing.Color.White;
+            this.btnOptmizeNow.Location = new System.Drawing.Point(13, 566);
+            this.btnOptmizeNow.Name = "btnOptmizeNow";
+            this.btnOptmizeNow.Size = new System.Drawing.Size(873, 69);
+            this.btnOptmizeNow.TabIndex = 60;
+            this.btnOptmizeNow.Text = "Optimize Now";
+            this.btnOptmizeNow.TextColor = System.Drawing.Color.White;
+            this.btnOptmizeNow.UseVisualStyleBackColor = false;
+            this.btnOptmizeNow.Click += new System.EventHandler(this.btnOptmizeNow_Click);
+            // 
+            // btnRollback2
+            // 
+            this.btnRollback2.BackColor = System.Drawing.Color.Crimson;
+            this.btnRollback2.BackgroundColor = System.Drawing.Color.Crimson;
+            this.btnRollback2.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnRollback2.BorderRadius = 10;
+            this.btnRollback2.BorderSize = 0;
+            this.btnRollback2.Enabled = false;
+            this.btnRollback2.FlatAppearance.BorderSize = 0;
+            this.btnRollback2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRollback2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRollback2.ForeColor = System.Drawing.Color.White;
+            this.btnRollback2.Location = new System.Drawing.Point(760, 495);
+            this.btnRollback2.Name = "btnRollback2";
+            this.btnRollback2.Size = new System.Drawing.Size(126, 65);
+            this.btnRollback2.TabIndex = 61;
+            this.btnRollback2.Text = "Roll Back";
+            this.btnRollback2.TextColor = System.Drawing.Color.White;
+            this.btnRollback2.UseVisualStyleBackColor = false;
+            this.btnRollback2.Click += new System.EventHandler(this.btnRollback2_Click);
+            // 
             // VistaOptimization
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(49)))));
+            this.Controls.Add(this.btnRollback2);
+            this.Controls.Add(this.btnOptmizeNow);
+            this.Controls.Add(this.lblCheckAll);
+            this.Controls.Add(this.rjToggleButton1);
             this.Controls.Add(this.checkClearRecyclebin);
-            this.Controls.Add(this.btnCheckAll);
             this.Controls.Add(this.checkDisableSearch);
             this.Controls.Add(this.checkDisableSysM);
             this.Controls.Add(this.checkDisablePushN);
@@ -324,10 +350,8 @@ namespace HelperToolRenovado
             this.Controls.Add(this.checkClearCache);
             this.Controls.Add(this.checkDisableServices);
             this.Controls.Add(this.checkDeleteTempFiles);
-            this.Controls.Add(this.btnOptmizeNow);
-            this.Controls.Add(this.btnRollback);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnUncheckAll);
+            this.Controls.Add(this.lblUncheckAll);
             this.Name = "VistaOptimization";
             this.Size = new System.Drawing.Size(904, 648);
             this.ResumeLayout(false);
@@ -336,11 +360,7 @@ namespace HelperToolRenovado
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnCheckAll;
-        private System.Windows.Forms.Button btnRollback;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnUncheckAll;
         public System.Windows.Forms.CheckBox checkDisableSearch;
         public System.Windows.Forms.CheckBox checkDisableSysM;
         public System.Windows.Forms.CheckBox checkDisablePushN;
@@ -353,7 +373,11 @@ namespace HelperToolRenovado
         public System.Windows.Forms.CheckBox checkClearCache;
         public System.Windows.Forms.CheckBox checkDisableServices;
         public System.Windows.Forms.CheckBox checkDeleteTempFiles;
-        private System.Windows.Forms.Button btnOptmizeNow;
         public System.Windows.Forms.CheckBox checkClearRecyclebin;
+        private ToggleButton rjToggleButton1;
+        private System.Windows.Forms.Label lblCheckAll;
+        private System.Windows.Forms.Label lblUncheckAll;
+        private FlatButton btnOptmizeNow;
+        private FlatButton btnRollback2;
     }
 }

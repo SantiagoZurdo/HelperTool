@@ -44,62 +44,24 @@ namespace HelperToolRenovado
                 cheackeadas.Checked = visibles;
             }
         }
-        private void btnCheckAll_Click(object sender, EventArgs e)
+        private void rjToggleButton1_CheckedChanged(object sender, EventArgs e)
         {
-            Visibles(true, listacheckOptimizeOptions);
-            btnCheckAll.Visible = false;
-            btnUncheckAll.Visible = true;
-        }
-
-        private void btnUncheckAll_Click(object sender, EventArgs e)
-        {
-            Visibles(false, listacheckOptimizeOptions);
-            btnUncheckAll.Visible = false;
-            btnCheckAll.Visible = true;
-        }
-        private void btnRollback_Click(object sender, EventArgs e)
-        {
-            DialogResult result1;
-            result1 = MessageBox.Show("Are you sure you want to rollback? If you do, the optimization options will be as before", "Windows Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if (result1 == System.Windows.Forms.DialogResult.Yes)
+            if (rjToggleButton1.Checked == true)
             {
-                RegistryKey key0 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SCardSvr", true);
-                key0.SetValue("Start", 3);
-                RegistryKey key1 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\TapiSrv", true);
-                key1.SetValue("Start", 3);
-                RegistryKey key3 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\Fax", true);
-                key3.SetValue("Start", 3);
-                RegistryKey key4 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\WpcMonSvc", true);
-                key4.SetValue("Start", 3);
-                RegistryKey key5 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\MapsBroker", true);
-                key5.SetValue("Start", 2);
-                RegistryKey key6 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SEMgrSvc", true);
-                key6.SetValue("Start", 3);
-                RegistryKey key7 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SNMPTRAP", true);
-                key7.SetValue("Start", 3);
-                RegistryKey key8 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\Netlogon", true);
-                key8.SetValue("Start", 3);
-                RegistryKey key10 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\WpnService", true);
-                key10.SetValue("Start", 2);
-                RegistryKey key11 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SysMain", true);
-                key11.SetValue("Start", 2);
-                RegistryKey key12 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\WSearch", true);
-                key12.SetValue("Start", 2);
-                RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\GameBar", true);
-                key.SetValue("AutoGameModeEnabled", "1");
-                key.Close();
-                MessageBox.Show("Rollback successful!!", "Windows message");
-                DialogResult resultado;
-                resultado = MessageBox.Show("Do you want to restart to apply the changes?", "Restart Now?", MessageBoxButtons.YesNo);
-                if (resultado == System.Windows.Forms.DialogResult.Yes)
-                {
-                    Process.Start("shutdown", "/r /t 0");
-                }
+                Visibles(true, listacheckOptimizeOptions);
+                lblCheckAll.Visible = false;
+                lblUncheckAll.Visible = true;
+            }
+            else
+            {
+                Visibles(false, listacheckOptimizeOptions);
+                lblUncheckAll.Visible = false;
+                lblCheckAll.Visible = true;
             }
         }
         private void btnOptmizeNow_Click(object sender, EventArgs e)
         {
-            btnRollback.Enabled = true;
+            btnRollback2.Enabled = true;
             try
             {
                 if (checkDelTempFilesUpdate.Checked)
@@ -147,7 +109,6 @@ namespace HelperToolRenovado
                 {
                     RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\GameBar", true);
                     key.SetValue("AutoGameModeEnabled", "0");
-                    key.Close();
                 }
                 //disable push notification from windows 10
                 if (checkDisablePushN.Checked)
@@ -205,7 +166,47 @@ namespace HelperToolRenovado
                     uint IsSuccess = SHEmptyRecycleBin(IntPtr.Zero, null, RecycleFlags.SHRB_NOCONFIRMATION);
                 }
             }
-            catch (Exception){}
+            catch (Exception) { }
+        }
+
+        private void btnRollback2_Click(object sender, EventArgs e)
+        {
+            DialogResult result1;
+            result1 = MessageBox.Show("Are you sure you want to rollback? If you do, the optimization options will be as before", "Windows Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result1 == System.Windows.Forms.DialogResult.Yes)
+            {
+                RegistryKey key0 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SCardSvr", true);
+                key0.SetValue("Start", 3);
+                RegistryKey key1 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\TapiSrv", true);
+                key1.SetValue("Start", 3);
+                RegistryKey key3 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\Fax", true);
+                key3.SetValue("Start", 3);
+                RegistryKey key4 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\WpcMonSvc", true);
+                key4.SetValue("Start", 3);
+                RegistryKey key5 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\MapsBroker", true);
+                key5.SetValue("Start", 2);
+                RegistryKey key6 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SEMgrSvc", true);
+                key6.SetValue("Start", 3);
+                RegistryKey key7 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SNMPTRAP", true);
+                key7.SetValue("Start", 3);
+                RegistryKey key8 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\Netlogon", true);
+                key8.SetValue("Start", 3);
+                RegistryKey key10 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\WpnService", true);
+                key10.SetValue("Start", 2);
+                RegistryKey key11 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SysMain", true);
+                key11.SetValue("Start", 2);
+                RegistryKey key12 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\WSearch", true);
+                key12.SetValue("Start", 2);
+                RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\GameBar", true);
+                key.SetValue("AutoGameModeEnabled", "1");
+                MessageBox.Show("Rollback successful!!", "Windows message");
+                DialogResult resultado;
+                resultado = MessageBox.Show("Do you want to restart to apply the changes?", "Restart Now?", MessageBoxButtons.YesNo);
+                if (resultado == System.Windows.Forms.DialogResult.Yes)
+                {
+                    Process.Start("shutdown", "/r /t 0");
+                }
+            }
         }
     }
 }

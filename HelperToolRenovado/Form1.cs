@@ -129,7 +129,7 @@ namespace HelperToolRenovado
             result2 = MessageBox.Show("Are you sure you want to deactivate windows?", "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result2 == System.Windows.Forms.DialogResult.Yes)
             {
-                CommandsCMD.RunSlmgr("-upk");
+                CommandsCMD.RunCommand("slmgr /upk");
             }
         }
         private void btnShowWversion_Click(object sender, EventArgs e)

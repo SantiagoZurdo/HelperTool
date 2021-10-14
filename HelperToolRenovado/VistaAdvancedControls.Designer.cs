@@ -29,54 +29,22 @@ namespace HelperToolRenovado
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCheckAll_Advanced = new System.Windows.Forms.Button();
-            this.btnGoAdvancedOptions = new System.Windows.Forms.Button();
             this.checkBoxDelFastAccs = new System.Windows.Forms.CheckBox();
             this.checkBoxDelObjects = new System.Windows.Forms.CheckBox();
             this.checkBoxDelVideo = new System.Windows.Forms.CheckBox();
             this.checkBoxDelImage = new System.Windows.Forms.CheckBox();
             this.checkBoxDelMusic = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnUnCheckAll_Advanced = new System.Windows.Forms.Button();
             this.checkBoxUnistallOneDrive = new System.Windows.Forms.CheckBox();
             this.checkBoxDisableFirewall = new System.Windows.Forms.CheckBox();
             this.checkBoxDisableRunasAdmin = new System.Windows.Forms.CheckBox();
             this.checkBoxDisableNotifications = new System.Windows.Forms.CheckBox();
             this.checkBoxDisableDefender = new System.Windows.Forms.CheckBox();
+            this.lblCheckAll2 = new System.Windows.Forms.Label();
+            this.lblUncheckAll2 = new System.Windows.Forms.Label();
+            this.rjToggleButton1 = new HelperToolRenovado.ToggleButton();
+            this.btnGoAdvancedOptions = new HelperToolRenovado.FlatButton();
             this.SuspendLayout();
-            // 
-            // btnCheckAll_Advanced
-            // 
-            this.btnCheckAll_Advanced.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnCheckAll_Advanced.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCheckAll_Advanced.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCheckAll_Advanced.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCheckAll_Advanced.ForeColor = System.Drawing.Color.White;
-            this.btnCheckAll_Advanced.Location = new System.Drawing.Point(382, 502);
-            this.btnCheckAll_Advanced.Name = "btnCheckAll_Advanced";
-            this.btnCheckAll_Advanced.Size = new System.Drawing.Size(126, 37);
-            this.btnCheckAll_Advanced.TabIndex = 44;
-            this.btnCheckAll_Advanced.TabStop = false;
-            this.btnCheckAll_Advanced.Text = "Check All";
-            this.btnCheckAll_Advanced.UseVisualStyleBackColor = true;
-            this.btnCheckAll_Advanced.Click += new System.EventHandler(this.btnCheckAll_Advanced_Click);
-            // 
-            // btnGoAdvancedOptions
-            // 
-            this.btnGoAdvancedOptions.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnGoAdvancedOptions.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGoAdvancedOptions.Enabled = false;
-            this.btnGoAdvancedOptions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGoAdvancedOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGoAdvancedOptions.ForeColor = System.Drawing.Color.White;
-            this.btnGoAdvancedOptions.Location = new System.Drawing.Point(16, 566);
-            this.btnGoAdvancedOptions.Name = "btnGoAdvancedOptions";
-            this.btnGoAdvancedOptions.Size = new System.Drawing.Size(871, 59);
-            this.btnGoAdvancedOptions.TabIndex = 43;
-            this.btnGoAdvancedOptions.TabStop = false;
-            this.btnGoAdvancedOptions.Text = "GO!";
-            this.btnGoAdvancedOptions.UseVisualStyleBackColor = true;
-            this.btnGoAdvancedOptions.Click += new System.EventHandler(this.btnGoAdvancedOptions_Click);
             // 
             // checkBoxDelFastAccs
             // 
@@ -153,27 +121,11 @@ namespace HelperToolRenovado
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Black", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(372, 14);
+            this.label2.Location = new System.Drawing.Point(316, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(255, 33);
             this.label2.TabIndex = 37;
             this.label2.Text = "Advanced Options";
-            // 
-            // btnUnCheckAll_Advanced
-            // 
-            this.btnUnCheckAll_Advanced.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnUnCheckAll_Advanced.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUnCheckAll_Advanced.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUnCheckAll_Advanced.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUnCheckAll_Advanced.ForeColor = System.Drawing.Color.White;
-            this.btnUnCheckAll_Advanced.Location = new System.Drawing.Point(382, 502);
-            this.btnUnCheckAll_Advanced.Name = "btnUnCheckAll_Advanced";
-            this.btnUnCheckAll_Advanced.Size = new System.Drawing.Size(126, 37);
-            this.btnUnCheckAll_Advanced.TabIndex = 45;
-            this.btnUnCheckAll_Advanced.TabStop = false;
-            this.btnUnCheckAll_Advanced.Text = "Uncheck All";
-            this.btnUnCheckAll_Advanced.UseVisualStyleBackColor = true;
-            this.btnUnCheckAll_Advanced.Click += new System.EventHandler(this.btnUnCheckAll_Advanced_Click);
             // 
             // checkBoxUnistallOneDrive
             // 
@@ -245,25 +197,90 @@ namespace HelperToolRenovado
             this.checkBoxDisableDefender.UseVisualStyleBackColor = true;
             this.checkBoxDisableDefender.CheckStateChanged += new System.EventHandler(this.Checkear);
             // 
+            // lblCheckAll2
+            // 
+            this.lblCheckAll2.AutoSize = true;
+            this.lblCheckAll2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCheckAll2.ForeColor = System.Drawing.Color.White;
+            this.lblCheckAll2.Location = new System.Drawing.Point(56, 509);
+            this.lblCheckAll2.Name = "lblCheckAll2";
+            this.lblCheckAll2.Size = new System.Drawing.Size(80, 20);
+            this.lblCheckAll2.TabIndex = 60;
+            this.lblCheckAll2.Text = "Check All";
+            // 
+            // lblUncheckAll2
+            // 
+            this.lblUncheckAll2.AutoSize = true;
+            this.lblUncheckAll2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUncheckAll2.ForeColor = System.Drawing.Color.White;
+            this.lblUncheckAll2.Location = new System.Drawing.Point(35, 510);
+            this.lblUncheckAll2.Name = "lblUncheckAll2";
+            this.lblUncheckAll2.Size = new System.Drawing.Size(101, 20);
+            this.lblUncheckAll2.TabIndex = 61;
+            this.lblUncheckAll2.Text = "UnCheck All";
+            this.lblUncheckAll2.Visible = false;
+            // 
+            // rjToggleButton1
+            // 
+            this.rjToggleButton1.AutoSize = true;
+            this.rjToggleButton1.Location = new System.Drawing.Point(148, 507);
+            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.Name = "rjToggleButton1";
+            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
+            this.rjToggleButton1.OffBackColor1 = System.Drawing.Color.Gray;
+            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.rjToggleButton1.OffToggleColor1 = System.Drawing.Color.Gainsboro;
+            this.rjToggleButton1.OnBackColor = System.Drawing.SystemColors.Highlight;
+            this.rjToggleButton1.OnBackColor1 = System.Drawing.SystemColors.Highlight;
+            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.rjToggleButton1.OnToggleColor1 = System.Drawing.Color.WhiteSmoke;
+            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.SolidStyle1 = true;
+            this.rjToggleButton1.TabIndex = 58;
+            this.rjToggleButton1.UseVisualStyleBackColor = true;
+            this.rjToggleButton1.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
+            // 
+            // btnGoAdvancedOptions
+            // 
+            this.btnGoAdvancedOptions.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnGoAdvancedOptions.BackgroundColor = System.Drawing.SystemColors.Highlight;
+            this.btnGoAdvancedOptions.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnGoAdvancedOptions.BorderRadius = 20;
+            this.btnGoAdvancedOptions.BorderSize = 0;
+            this.btnGoAdvancedOptions.Enabled = false;
+            this.btnGoAdvancedOptions.FlatAppearance.BorderSize = 0;
+            this.btnGoAdvancedOptions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGoAdvancedOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGoAdvancedOptions.ForeColor = System.Drawing.Color.White;
+            this.btnGoAdvancedOptions.Location = new System.Drawing.Point(13, 566);
+            this.btnGoAdvancedOptions.Name = "btnGoAdvancedOptions";
+            this.btnGoAdvancedOptions.Size = new System.Drawing.Size(873, 69);
+            this.btnGoAdvancedOptions.TabIndex = 62;
+            this.btnGoAdvancedOptions.Text = "Optimize Now";
+            this.btnGoAdvancedOptions.TextColor = System.Drawing.Color.White;
+            this.btnGoAdvancedOptions.UseVisualStyleBackColor = false;
+            this.btnGoAdvancedOptions.Click += new System.EventHandler(this.btnGoAdvancedOptions_Click);
+            // 
             // VistaAdvancedControls
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(49)))));
+            this.Controls.Add(this.lblCheckAll2);
+            this.Controls.Add(this.btnGoAdvancedOptions);
+            this.Controls.Add(this.rjToggleButton1);
             this.Controls.Add(this.checkBoxDisableDefender);
             this.Controls.Add(this.checkBoxDisableNotifications);
             this.Controls.Add(this.checkBoxDisableRunasAdmin);
             this.Controls.Add(this.checkBoxDisableFirewall);
             this.Controls.Add(this.checkBoxUnistallOneDrive);
-            this.Controls.Add(this.btnCheckAll_Advanced);
-            this.Controls.Add(this.btnGoAdvancedOptions);
             this.Controls.Add(this.checkBoxDelFastAccs);
             this.Controls.Add(this.checkBoxDelObjects);
             this.Controls.Add(this.checkBoxDelVideo);
             this.Controls.Add(this.checkBoxDelImage);
             this.Controls.Add(this.checkBoxDelMusic);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnUnCheckAll_Advanced);
+            this.Controls.Add(this.lblUncheckAll2);
             this.Name = "VistaAdvancedControls";
             this.Size = new System.Drawing.Size(904, 648);
             this.ResumeLayout(false);
@@ -272,20 +289,20 @@ namespace HelperToolRenovado
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnCheckAll_Advanced;
-        private System.Windows.Forms.Button btnGoAdvancedOptions;
         private System.Windows.Forms.CheckBox checkBoxDelFastAccs;
         private System.Windows.Forms.CheckBox checkBoxDelObjects;
         private System.Windows.Forms.CheckBox checkBoxDelVideo;
         private System.Windows.Forms.CheckBox checkBoxDelImage;
         private System.Windows.Forms.CheckBox checkBoxDelMusic;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnUnCheckAll_Advanced;
         private System.Windows.Forms.CheckBox checkBoxUnistallOneDrive;
         private System.Windows.Forms.CheckBox checkBoxDisableFirewall;
         private System.Windows.Forms.CheckBox checkBoxDisableRunasAdmin;
         private System.Windows.Forms.CheckBox checkBoxDisableNotifications;
         private System.Windows.Forms.CheckBox checkBoxDisableDefender;
+        private ToggleButton rjToggleButton1;
+        private System.Windows.Forms.Label lblCheckAll2;
+        private System.Windows.Forms.Label lblUncheckAll2;
+        private FlatButton btnGoAdvancedOptions;
     }
 }

@@ -40,14 +40,10 @@ namespace HelperToolRenovado
         private void btnUnCheckAll_Advanced_Click(object sender, EventArgs e)
         {
             Visibles(false, listacheckAdvanced);
-            btnUnCheckAll_Advanced.Visible = false;
-            btnCheckAll_Advanced.Visible = true;
         }
         private void btnCheckAll_Advanced_Click(object sender, EventArgs e)
         {
-            Visibles(true, listacheckAdvanced);
-            btnCheckAll_Advanced.Visible = false;
-            btnUnCheckAll_Advanced.Visible = true;
+
         }
         private void btnGoAdvancedOptions_Click(object sender, EventArgs e)
         {
@@ -120,6 +116,21 @@ namespace HelperToolRenovado
             if (resultado == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start("shutdown", "/r /t 0");
+            }
+        }
+        private void rjToggleButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rjToggleButton1.Checked == true)
+            {
+                Visibles(true, listacheckAdvanced);
+                lblCheckAll2.Visible = false;
+                lblUncheckAll2.Visible = true;
+            }
+            else
+            {
+                Visibles(false, listacheckAdvanced);
+                lblUncheckAll2.Visible = false;
+                lblCheckAll2.Visible = true;
             }
         }
     }
