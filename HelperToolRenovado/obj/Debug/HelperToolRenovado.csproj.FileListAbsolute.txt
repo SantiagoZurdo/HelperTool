@@ -1,0 +1,38 @@
+D:\HelperToolRenovado\HelperToolRenovado\bin\Debug\HelperToolRenovado.exe.config
+D:\HelperToolRenovado\HelperToolRenovado\bin\Debug\HelperToolRenovado.exe
+D:\HelperToolRenovado\HelperToolRenovado\bin\Debug\HelperToolRenovado.pdb
+D:\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.csproj.AssemblyReference.cache
+D:\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.Form1.resources
+D:\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.Properties.Resources.resources
+D:\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.csproj.GenerateResource.cache
+D:\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.csproj.CoreCompileInputs.cache
+D:\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.exe
+D:\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.pdb
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\bin\Debug\HelperToolRenovado.exe.config
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\bin\Debug\HelperToolRenovado.exe
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\bin\Debug\HelperToolRenovado.pdb
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.csproj.AssemblyReference.cache
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.Form1.resources
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.Properties.Resources.resources
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.csproj.GenerateResource.cache
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.csproj.CoreCompileInputs.cache
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.exe
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.pdb
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaInicio.resources
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaAdvancedControls.resources
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaCarga.resources
+D:\copia de seguridad 2.0\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaOptimization.resources
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\bin\Debug\HelperToolRenovado.exe.config
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\bin\Debug\HelperToolRenovado.exe
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\bin\Debug\HelperToolRenovado.pdb
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.csproj.AssemblyReference.cache
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.Form1.resources
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.Properties.Resources.resources
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaAdvancedControls.resources
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaCarga.resources
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaInicio.resources
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaOptimization.resources
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.csproj.GenerateResource.cache
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.csproj.CoreCompileInputs.cache
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.exe
+D:\Proyectos & Repositorios\C# .NET FRAMEWORK\HelperToolRenovado\HelperToolRenovado\obj\Debug\HelperToolRenovado.pdb
