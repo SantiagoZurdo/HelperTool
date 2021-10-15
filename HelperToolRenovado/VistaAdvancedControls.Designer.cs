@@ -242,8 +242,8 @@ namespace HelperToolRenovado
             // 
             // btnGoAdvancedOptions
             // 
-            this.btnGoAdvancedOptions.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btnGoAdvancedOptions.BackgroundColor = System.Drawing.SystemColors.Highlight;
+            this.btnGoAdvancedOptions.BackColor = System.Drawing.Color.Gray;
+            this.btnGoAdvancedOptions.BackgroundColor = System.Drawing.Color.Gray;
             this.btnGoAdvancedOptions.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnGoAdvancedOptions.BorderRadius = 20;
             this.btnGoAdvancedOptions.BorderSize = 0;

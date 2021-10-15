@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace HelperToolRenovado
@@ -28,7 +29,16 @@ namespace HelperToolRenovado
         }
         private void Checkear(object sender, EventArgs e)
         {
-            btnGoAdvancedOptions.Enabled = ComprobarCheckboxs(listacheckAdvanced);
+            bool checkbox = ComprobarCheckboxs(listacheckAdvanced);
+            btnGoAdvancedOptions.Enabled = checkbox;
+            if (checkbox)
+            {
+                btnGoAdvancedOptions.BackColor = ColorTranslator.FromHtml("#0078d7");
+            }
+            else
+            {
+                btnGoAdvancedOptions.BackColor = ColorTranslator.FromHtml("#808080");
+            }
         }
         private void Visibles(bool visibles, List<CheckBox> listaAdvanced)
         {
