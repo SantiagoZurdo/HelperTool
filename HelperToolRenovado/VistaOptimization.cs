@@ -35,6 +35,7 @@ namespace HelperToolRenovado
         }
         private void Checkear(object sender, EventArgs e)
         {
+            //Color offBackColor = Color.Gray;
             btnOptmizeNow.Enabled = ComprobarCheckboxs(listacheckOptimizeOptions);
         }
         private void Visibles(bool visibles, List<CheckBox> listaOptimizacion)

@@ -12,11 +12,11 @@ namespace HelperToolRenovado
 {
     public class ToggleButton : CheckBox
     {
-        private Color onBackColor = Color.MediumSlateBlue;
-        private Color onToggleColor = Color.WhiteSmoke;
-        private Color offBackColor = Color.Gray;
-        private Color offToggleColor = Color.Gainsboro;
-        private bool solidStyle = true;
+        public Color onBackColor = Color.MediumSlateBlue;
+        public Color onToggleColor = Color.WhiteSmoke;
+        public Color offBackColor = Color.Gray;
+        public Color offToggleColor = Color.Gainsboro;
+        public bool solidStyle = true;
 
         [Category("Code advanc")]
         public Color OnBackColor

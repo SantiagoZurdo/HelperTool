@@ -288,8 +288,8 @@ namespace HelperToolRenovado
             // 
             // btnOptmizeNow
             // 
-            this.btnOptmizeNow.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btnOptmizeNow.BackgroundColor = System.Drawing.SystemColors.Highlight;
+            this.btnOptmizeNow.BackColor = System.Drawing.Color.Gray;
+            this.btnOptmizeNow.BackgroundColor = System.Drawing.Color.Gray;
             this.btnOptmizeNow.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnOptmizeNow.BorderRadius = 20;
             this.btnOptmizeNow.BorderSize = 0;
@@ -319,9 +319,9 @@ namespace HelperToolRenovado
             this.btnRollback2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRollback2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRollback2.ForeColor = System.Drawing.Color.White;
-            this.btnRollback2.Location = new System.Drawing.Point(760, 495);
+            this.btnRollback2.Location = new System.Drawing.Point(760, 507);
             this.btnRollback2.Name = "btnRollback2";
-            this.btnRollback2.Size = new System.Drawing.Size(126, 65);
+            this.btnRollback2.Size = new System.Drawing.Size(126, 53);
             this.btnRollback2.TabIndex = 61;
             this.btnRollback2.Text = "Roll Back";
             this.btnRollback2.TextColor = System.Drawing.Color.White;
