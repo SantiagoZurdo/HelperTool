@@ -31,7 +31,7 @@ namespace HelperToolRenovado
                 cmd.StartInfo.RedirectStandardOutput = true;
                 cmd.Start();
                 cmd.WaitForExit(2000); //no funciona
-                cmd.Kill();
+                //cmd.Kill();
                 //MessageBox.Show("prueba");
             });
 

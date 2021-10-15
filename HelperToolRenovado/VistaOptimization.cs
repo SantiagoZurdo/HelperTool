@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.Caching;
@@ -17,7 +18,7 @@ namespace HelperToolRenovado
         public VistaOptimization()
         {
             InitializeComponent();
-            listacheckOptimizeOptions = new List<CheckBox> { checkDelTempFilesUpdate, checkDeleteTempFiles, checkCacheDNS, checkClearEvLog, checkClearCache, checkEnergyPlan, checkDisableGameModeWin, checkDisablePushN, checkDisableSysM, checkDisableUpdates, checkDisableSearch, checkDisableServices, checkClearRecyclebin };
+            listacheckOptimizeOptions = new List<CheckBox> {checkDelTempFilesUpdate, checkDeleteTempFiles, checkCacheDNS, checkClearEvLog, checkClearCache, checkEnergyPlan, checkDisableGameModeWin, checkDisablePushN, checkDisableSysM, checkDisableUpdates, checkDisableSearch, checkDisableServices, checkClearRecyclebin };
         }
         enum RecycleFlags : uint {SHRB_NOCONFIRMATION = 0x00000001,SHRB_NOPROGRESSUI = 0x00000002,SHRB_NOSOUND = 0x00000004}
         [DllImport("Shell32.dll", CharSet = CharSet.Unicode)]
@@ -35,8 +36,16 @@ namespace HelperToolRenovado
         }
         private void Checkear(object sender, EventArgs e)
         {
-            //Color offBackColor = Color.Gray;
-            btnOptmizeNow.Enabled = ComprobarCheckboxs(listacheckOptimizeOptions);
+            bool checkbox = ComprobarCheckboxs(listacheckOptimizeOptions);
+            btnOptmizeNow.Enabled = checkbox;
+            if (checkbox)
+            {
+                btnOptmizeNow.BackColor = ColorTranslator.FromHtml("#0078d7");
+            }
+            else
+            {
+                btnOptmizeNow.BackColor = ColorTranslator.FromHtml("#808080");
+            }
         }
         private void Visibles(bool visibles, List<CheckBox> listaOptimizacion)
         {
