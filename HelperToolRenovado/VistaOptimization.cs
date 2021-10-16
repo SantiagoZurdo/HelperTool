@@ -54,7 +54,7 @@ namespace HelperToolRenovado
                 cheackeadas.Checked = visibles;
             }
         }
-        private void rjToggleButton1_CheckedChanged(object sender, EventArgs e)
+        private void SwitchChecked_CheckedChanged(object sender, EventArgs e)
         {
             if (rjToggleButton1.Checked == true)
             {

@@ -55,7 +55,7 @@ namespace HelperToolRenovado
             this.checkDisableSearch.AutoSize = true;
             this.checkDisableSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkDisableSearch.ForeColor = System.Drawing.Color.White;
-            this.checkDisableSearch.Location = new System.Drawing.Point(22, 376);
+            this.checkDisableSearch.Location = new System.Drawing.Point(22, 373);
             this.checkDisableSearch.Name = "checkDisableSearch";
             this.checkDisableSearch.Size = new System.Drawing.Size(248, 24);
             this.checkDisableSearch.TabIndex = 55;
@@ -69,7 +69,7 @@ namespace HelperToolRenovado
             this.checkDisableSysM.AutoSize = true;
             this.checkDisableSysM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkDisableSysM.ForeColor = System.Drawing.Color.White;
-            this.checkDisableSysM.Location = new System.Drawing.Point(22, 316);
+            this.checkDisableSysM.Location = new System.Drawing.Point(22, 313);
             this.checkDisableSysM.Name = "checkDisableSysM";
             this.checkDisableSysM.Size = new System.Drawing.Size(185, 24);
             this.checkDisableSysM.TabIndex = 54;
@@ -83,7 +83,7 @@ namespace HelperToolRenovado
             this.checkDisablePushN.AutoSize = true;
             this.checkDisablePushN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkDisablePushN.ForeColor = System.Drawing.Color.White;
-            this.checkDisablePushN.Location = new System.Drawing.Point(22, 286);
+            this.checkDisablePushN.Location = new System.Drawing.Point(22, 283);
             this.checkDisablePushN.Name = "checkDisablePushN";
             this.checkDisablePushN.Size = new System.Drawing.Size(399, 24);
             this.checkDisablePushN.TabIndex = 53;
@@ -97,7 +97,7 @@ namespace HelperToolRenovado
             this.checkDisableGameModeWin.AutoSize = true;
             this.checkDisableGameModeWin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkDisableGameModeWin.ForeColor = System.Drawing.Color.White;
-            this.checkDisableGameModeWin.Location = new System.Drawing.Point(22, 256);
+            this.checkDisableGameModeWin.Location = new System.Drawing.Point(22, 253);
             this.checkDisableGameModeWin.Name = "checkDisableGameModeWin";
             this.checkDisableGameModeWin.Size = new System.Drawing.Size(210, 24);
             this.checkDisableGameModeWin.TabIndex = 52;
@@ -125,7 +125,7 @@ namespace HelperToolRenovado
             this.checkDisableUpdates.AutoSize = true;
             this.checkDisableUpdates.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkDisableUpdates.ForeColor = System.Drawing.Color.White;
-            this.checkDisableUpdates.Location = new System.Drawing.Point(22, 346);
+            this.checkDisableUpdates.Location = new System.Drawing.Point(22, 343);
             this.checkDisableUpdates.Name = "checkDisableUpdates";
             this.checkDisableUpdates.Size = new System.Drawing.Size(247, 24);
             this.checkDisableUpdates.TabIndex = 50;
@@ -153,7 +153,7 @@ namespace HelperToolRenovado
             this.checkEnergyPlan.AutoSize = true;
             this.checkEnergyPlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkEnergyPlan.ForeColor = System.Drawing.Color.White;
-            this.checkEnergyPlan.Location = new System.Drawing.Point(22, 226);
+            this.checkEnergyPlan.Location = new System.Drawing.Point(22, 223);
             this.checkEnergyPlan.Name = "checkEnergyPlan";
             this.checkEnergyPlan.Size = new System.Drawing.Size(337, 24);
             this.checkEnergyPlan.TabIndex = 48;
@@ -195,7 +195,7 @@ namespace HelperToolRenovado
             this.checkDisableServices.AutoSize = true;
             this.checkDisableServices.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkDisableServices.ForeColor = System.Drawing.Color.White;
-            this.checkDisableServices.Location = new System.Drawing.Point(22, 406);
+            this.checkDisableServices.Location = new System.Drawing.Point(22, 403);
             this.checkDisableServices.Name = "checkDisableServices";
             this.checkDisableServices.Size = new System.Drawing.Size(297, 24);
             this.checkDisableServices.TabIndex = 45;
@@ -223,7 +223,7 @@ namespace HelperToolRenovado
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(375, 22);
+            this.label1.Location = new System.Drawing.Point(320, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(241, 33);
             this.label1.TabIndex = 39;
@@ -234,7 +234,7 @@ namespace HelperToolRenovado
             this.checkClearRecyclebin.AutoSize = true;
             this.checkClearRecyclebin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkClearRecyclebin.ForeColor = System.Drawing.Color.White;
-            this.checkClearRecyclebin.Location = new System.Drawing.Point(22, 436);
+            this.checkClearRecyclebin.Location = new System.Drawing.Point(22, 433);
             this.checkClearRecyclebin.Name = "checkClearRecyclebin";
             this.checkClearRecyclebin.Size = new System.Drawing.Size(193, 24);
             this.checkClearRecyclebin.TabIndex = 56;
@@ -248,7 +248,7 @@ namespace HelperToolRenovado
             this.lblCheckAll.AutoSize = true;
             this.lblCheckAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCheckAll.ForeColor = System.Drawing.Color.White;
-            this.lblCheckAll.Location = new System.Drawing.Point(54, 509);
+            this.lblCheckAll.Location = new System.Drawing.Point(18, 509);
             this.lblCheckAll.Name = "lblCheckAll";
             this.lblCheckAll.Size = new System.Drawing.Size(80, 20);
             this.lblCheckAll.TabIndex = 58;
@@ -257,7 +257,7 @@ namespace HelperToolRenovado
             // rjToggleButton1
             // 
             this.rjToggleButton1.AutoSize = true;
-            this.rjToggleButton1.Location = new System.Drawing.Point(148, 507);
+            this.rjToggleButton1.Location = new System.Drawing.Point(104, 507);
             this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
             this.rjToggleButton1.Name = "rjToggleButton1";
             this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
@@ -272,14 +272,14 @@ namespace HelperToolRenovado
             this.rjToggleButton1.SolidStyle1 = true;
             this.rjToggleButton1.TabIndex = 57;
             this.rjToggleButton1.UseVisualStyleBackColor = true;
-            this.rjToggleButton1.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
+            this.rjToggleButton1.CheckedChanged += new System.EventHandler(this.SwitchChecked_CheckedChanged);
             // 
             // lblUncheckAll
             // 
             this.lblUncheckAll.AutoSize = true;
             this.lblUncheckAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUncheckAll.ForeColor = System.Drawing.Color.White;
-            this.lblUncheckAll.Location = new System.Drawing.Point(33, 509);
+            this.lblUncheckAll.Location = new System.Drawing.Point(163, 509);
             this.lblUncheckAll.Name = "lblUncheckAll";
             this.lblUncheckAll.Size = new System.Drawing.Size(101, 20);
             this.lblUncheckAll.TabIndex = 59;
@@ -319,9 +319,9 @@ namespace HelperToolRenovado
             this.btnRollback2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRollback2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRollback2.ForeColor = System.Drawing.Color.White;
-            this.btnRollback2.Location = new System.Drawing.Point(760, 507);
+            this.btnRollback2.Location = new System.Drawing.Point(757, 523);
             this.btnRollback2.Name = "btnRollback2";
-            this.btnRollback2.Size = new System.Drawing.Size(126, 53);
+            this.btnRollback2.Size = new System.Drawing.Size(126, 37);
             this.btnRollback2.TabIndex = 61;
             this.btnRollback2.Text = "Roll Back";
             this.btnRollback2.TextColor = System.Drawing.Color.White;

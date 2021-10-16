@@ -51,10 +51,6 @@ namespace HelperToolRenovado
         {
             Visibles(false, listacheckAdvanced);
         }
-        private void btnCheckAll_Advanced_Click(object sender, EventArgs e)
-        {
-
-        }
         private void btnGoAdvancedOptions_Click(object sender, EventArgs e)
         {
             try
@@ -130,7 +126,7 @@ namespace HelperToolRenovado
         }
         private void rjToggleButton1_CheckedChanged(object sender, EventArgs e)
         {
-            if (rjToggleButton1.Checked == true)
+            if (SwitchChecked.Checked == true)
             {
                 Visibles(true, listacheckAdvanced);
                 lblCheckAll2.Visible = false;

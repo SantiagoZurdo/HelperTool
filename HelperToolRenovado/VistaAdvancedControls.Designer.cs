@@ -42,7 +42,7 @@ namespace HelperToolRenovado
             this.checkBoxDisableDefender = new System.Windows.Forms.CheckBox();
             this.lblCheckAll2 = new System.Windows.Forms.Label();
             this.lblUncheckAll2 = new System.Windows.Forms.Label();
-            this.rjToggleButton1 = new HelperToolRenovado.ToggleButton();
+            this.SwitchChecked = new HelperToolRenovado.ToggleButton();
             this.btnGoAdvancedOptions = new HelperToolRenovado.FlatButton();
             this.SuspendLayout();
             // 
@@ -51,7 +51,7 @@ namespace HelperToolRenovado
             this.checkBoxDelFastAccs.AutoSize = true;
             this.checkBoxDelFastAccs.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDelFastAccs.ForeColor = System.Drawing.Color.White;
-            this.checkBoxDelFastAccs.Location = new System.Drawing.Point(22, 201);
+            this.checkBoxDelFastAccs.Location = new System.Drawing.Point(22, 193);
             this.checkBoxDelFastAccs.Name = "checkBoxDelFastAccs";
             this.checkBoxDelFastAccs.Size = new System.Drawing.Size(247, 24);
             this.checkBoxDelFastAccs.TabIndex = 42;
@@ -65,7 +65,7 @@ namespace HelperToolRenovado
             this.checkBoxDelObjects.AutoSize = true;
             this.checkBoxDelObjects.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDelObjects.ForeColor = System.Drawing.Color.White;
-            this.checkBoxDelObjects.Location = new System.Drawing.Point(22, 171);
+            this.checkBoxDelObjects.Location = new System.Drawing.Point(22, 163);
             this.checkBoxDelObjects.Name = "checkBoxDelObjects";
             this.checkBoxDelObjects.Size = new System.Drawing.Size(244, 24);
             this.checkBoxDelObjects.TabIndex = 41;
@@ -79,7 +79,7 @@ namespace HelperToolRenovado
             this.checkBoxDelVideo.AutoSize = true;
             this.checkBoxDelVideo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDelVideo.ForeColor = System.Drawing.Color.White;
-            this.checkBoxDelVideo.Location = new System.Drawing.Point(22, 141);
+            this.checkBoxDelVideo.Location = new System.Drawing.Point(22, 133);
             this.checkBoxDelVideo.Name = "checkBoxDelVideo";
             this.checkBoxDelVideo.Size = new System.Drawing.Size(203, 24);
             this.checkBoxDelVideo.TabIndex = 40;
@@ -93,7 +93,7 @@ namespace HelperToolRenovado
             this.checkBoxDelImage.AutoSize = true;
             this.checkBoxDelImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDelImage.ForeColor = System.Drawing.Color.White;
-            this.checkBoxDelImage.Location = new System.Drawing.Point(22, 111);
+            this.checkBoxDelImage.Location = new System.Drawing.Point(22, 103);
             this.checkBoxDelImage.Name = "checkBoxDelImage";
             this.checkBoxDelImage.Size = new System.Drawing.Size(209, 24);
             this.checkBoxDelImage.TabIndex = 39;
@@ -107,7 +107,7 @@ namespace HelperToolRenovado
             this.checkBoxDelMusic.AutoSize = true;
             this.checkBoxDelMusic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDelMusic.ForeColor = System.Drawing.Color.White;
-            this.checkBoxDelMusic.Location = new System.Drawing.Point(22, 81);
+            this.checkBoxDelMusic.Location = new System.Drawing.Point(22, 73);
             this.checkBoxDelMusic.Name = "checkBoxDelMusic";
             this.checkBoxDelMusic.Size = new System.Drawing.Size(209, 24);
             this.checkBoxDelMusic.TabIndex = 38;
@@ -121,7 +121,7 @@ namespace HelperToolRenovado
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Black", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(316, 12);
+            this.label2.Location = new System.Drawing.Point(320, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(255, 33);
             this.label2.TabIndex = 37;
@@ -132,7 +132,7 @@ namespace HelperToolRenovado
             this.checkBoxUnistallOneDrive.AutoSize = true;
             this.checkBoxUnistallOneDrive.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxUnistallOneDrive.ForeColor = System.Drawing.Color.White;
-            this.checkBoxUnistallOneDrive.Location = new System.Drawing.Point(22, 231);
+            this.checkBoxUnistallOneDrive.Location = new System.Drawing.Point(22, 223);
             this.checkBoxUnistallOneDrive.Name = "checkBoxUnistallOneDrive";
             this.checkBoxUnistallOneDrive.Size = new System.Drawing.Size(193, 24);
             this.checkBoxUnistallOneDrive.TabIndex = 46;
@@ -146,7 +146,7 @@ namespace HelperToolRenovado
             this.checkBoxDisableFirewall.AutoSize = true;
             this.checkBoxDisableFirewall.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDisableFirewall.ForeColor = System.Drawing.Color.White;
-            this.checkBoxDisableFirewall.Location = new System.Drawing.Point(22, 261);
+            this.checkBoxDisableFirewall.Location = new System.Drawing.Point(22, 253);
             this.checkBoxDisableFirewall.Name = "checkBoxDisableFirewall";
             this.checkBoxDisableFirewall.Size = new System.Drawing.Size(180, 24);
             this.checkBoxDisableFirewall.TabIndex = 47;
@@ -160,7 +160,7 @@ namespace HelperToolRenovado
             this.checkBoxDisableRunasAdmin.AutoSize = true;
             this.checkBoxDisableRunasAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDisableRunasAdmin.ForeColor = System.Drawing.Color.White;
-            this.checkBoxDisableRunasAdmin.Location = new System.Drawing.Point(22, 291);
+            this.checkBoxDisableRunasAdmin.Location = new System.Drawing.Point(22, 283);
             this.checkBoxDisableRunasAdmin.Name = "checkBoxDisableRunasAdmin";
             this.checkBoxDisableRunasAdmin.Size = new System.Drawing.Size(375, 24);
             this.checkBoxDisableRunasAdmin.TabIndex = 48;
@@ -174,7 +174,7 @@ namespace HelperToolRenovado
             this.checkBoxDisableNotifications.AutoSize = true;
             this.checkBoxDisableNotifications.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDisableNotifications.ForeColor = System.Drawing.Color.White;
-            this.checkBoxDisableNotifications.Location = new System.Drawing.Point(22, 321);
+            this.checkBoxDisableNotifications.Location = new System.Drawing.Point(22, 313);
             this.checkBoxDisableNotifications.Name = "checkBoxDisableNotifications";
             this.checkBoxDisableNotifications.Size = new System.Drawing.Size(324, 24);
             this.checkBoxDisableNotifications.TabIndex = 49;
@@ -188,7 +188,7 @@ namespace HelperToolRenovado
             this.checkBoxDisableDefender.AutoSize = true;
             this.checkBoxDisableDefender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDisableDefender.ForeColor = System.Drawing.Color.White;
-            this.checkBoxDisableDefender.Location = new System.Drawing.Point(22, 351);
+            this.checkBoxDisableDefender.Location = new System.Drawing.Point(22, 343);
             this.checkBoxDisableDefender.Name = "checkBoxDisableDefender";
             this.checkBoxDisableDefender.Size = new System.Drawing.Size(272, 24);
             this.checkBoxDisableDefender.TabIndex = 50;
@@ -202,7 +202,7 @@ namespace HelperToolRenovado
             this.lblCheckAll2.AutoSize = true;
             this.lblCheckAll2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCheckAll2.ForeColor = System.Drawing.Color.White;
-            this.lblCheckAll2.Location = new System.Drawing.Point(56, 509);
+            this.lblCheckAll2.Location = new System.Drawing.Point(18, 509);
             this.lblCheckAll2.Name = "lblCheckAll2";
             this.lblCheckAll2.Size = new System.Drawing.Size(80, 20);
             this.lblCheckAll2.TabIndex = 60;
@@ -213,32 +213,32 @@ namespace HelperToolRenovado
             this.lblUncheckAll2.AutoSize = true;
             this.lblUncheckAll2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUncheckAll2.ForeColor = System.Drawing.Color.White;
-            this.lblUncheckAll2.Location = new System.Drawing.Point(35, 510);
+            this.lblUncheckAll2.Location = new System.Drawing.Point(155, 511);
             this.lblUncheckAll2.Name = "lblUncheckAll2";
             this.lblUncheckAll2.Size = new System.Drawing.Size(101, 20);
             this.lblUncheckAll2.TabIndex = 61;
             this.lblUncheckAll2.Text = "UnCheck All";
             this.lblUncheckAll2.Visible = false;
             // 
-            // rjToggleButton1
+            // SwitchChecked
             // 
-            this.rjToggleButton1.AutoSize = true;
-            this.rjToggleButton1.Location = new System.Drawing.Point(148, 507);
-            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton1.Name = "rjToggleButton1";
-            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
-            this.rjToggleButton1.OffBackColor1 = System.Drawing.Color.Gray;
-            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
-            this.rjToggleButton1.OffToggleColor1 = System.Drawing.Color.Gainsboro;
-            this.rjToggleButton1.OnBackColor = System.Drawing.SystemColors.Highlight;
-            this.rjToggleButton1.OnBackColor1 = System.Drawing.SystemColors.Highlight;
-            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.rjToggleButton1.OnToggleColor1 = System.Drawing.Color.WhiteSmoke;
-            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
-            this.rjToggleButton1.SolidStyle1 = true;
-            this.rjToggleButton1.TabIndex = 58;
-            this.rjToggleButton1.UseVisualStyleBackColor = true;
-            this.rjToggleButton1.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
+            this.SwitchChecked.AutoSize = true;
+            this.SwitchChecked.Location = new System.Drawing.Point(104, 509);
+            this.SwitchChecked.MinimumSize = new System.Drawing.Size(45, 22);
+            this.SwitchChecked.Name = "SwitchChecked";
+            this.SwitchChecked.OffBackColor = System.Drawing.Color.Gray;
+            this.SwitchChecked.OffBackColor1 = System.Drawing.Color.Gray;
+            this.SwitchChecked.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.SwitchChecked.OffToggleColor1 = System.Drawing.Color.Gainsboro;
+            this.SwitchChecked.OnBackColor = System.Drawing.SystemColors.Highlight;
+            this.SwitchChecked.OnBackColor1 = System.Drawing.SystemColors.Highlight;
+            this.SwitchChecked.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.SwitchChecked.OnToggleColor1 = System.Drawing.Color.WhiteSmoke;
+            this.SwitchChecked.Size = new System.Drawing.Size(45, 22);
+            this.SwitchChecked.SolidStyle1 = true;
+            this.SwitchChecked.TabIndex = 58;
+            this.SwitchChecked.UseVisualStyleBackColor = true;
+            this.SwitchChecked.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
             // 
             // btnGoAdvancedOptions
             // 
@@ -268,7 +268,7 @@ namespace HelperToolRenovado
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(49)))));
             this.Controls.Add(this.lblCheckAll2);
             this.Controls.Add(this.btnGoAdvancedOptions);
-            this.Controls.Add(this.rjToggleButton1);
+            this.Controls.Add(this.SwitchChecked);
             this.Controls.Add(this.checkBoxDisableDefender);
             this.Controls.Add(this.checkBoxDisableNotifications);
             this.Controls.Add(this.checkBoxDisableRunasAdmin);
@@ -300,7 +300,7 @@ namespace HelperToolRenovado
         private System.Windows.Forms.CheckBox checkBoxDisableRunasAdmin;
         private System.Windows.Forms.CheckBox checkBoxDisableNotifications;
         private System.Windows.Forms.CheckBox checkBoxDisableDefender;
-        private ToggleButton rjToggleButton1;
+        private ToggleButton SwitchChecked;
         private System.Windows.Forms.Label lblCheckAll2;
         private System.Windows.Forms.Label lblUncheckAll2;
         private FlatButton btnGoAdvancedOptions;

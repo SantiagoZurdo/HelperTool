@@ -38,10 +38,9 @@ namespace HelperToolRenovado
             panelSubmenuActivation.Visible = false;
             panelOptimizeSettings.Visible = false;
         }
-
         private void hideSubmenu()
         {
-            if (panelSubmenuActivation.Visible== true)
+            if (panelSubmenuActivation.Visible == true)
             {
                 panelSubmenuActivation.Visible = false;
             }
@@ -80,7 +79,6 @@ namespace HelperToolRenovado
         private async void  btnActivateW_Click(object sender, EventArgs e)
         {
             Navigate.Navegar("VistaInicio");
-            hideSubmenu();
             string windowsVersion = "";
             using (ManagementObjectSearcher buscador = new ManagementObjectSearcher("SELECT * FROM Win32_OperatingSystem"))
             {
@@ -124,7 +122,6 @@ namespace HelperToolRenovado
         private void btnDeactivateW_Click(object sender, EventArgs e)
         {
             Navigate.Navegar("VistaInicio");
-            hideSubmenu();
             DialogResult result2;
             result2 = MessageBox.Show("Are you sure you want to deactivate windows?", "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result2 == System.Windows.Forms.DialogResult.Yes)
@@ -135,28 +132,27 @@ namespace HelperToolRenovado
         private void btnShowWversion_Click(object sender, EventArgs e)
         {
             Navigate.Navegar("VistaInicio");
-            hideSubmenu();
             CommandsCMD.RunCommand("start ms-settings:activation");
         }
         private void btnOptimizeW_Click(object sender, EventArgs e)
         {
             Navigate.Navegar("VistaOptimization");
-            hideSubmenu();
         }
         private void btnAdvancedOptionsW_Click(object sender, EventArgs e)
         {
             Navigate.Navegar("VistaAdvancedControls");
-            hideSubmenu();
         }
 
         private void btnActivationSettings_Click(object sender, EventArgs e)
         {
             showSubMenu(panelSubmenuActivation);
+            Navigate.Navegar("VistaInicio");
         }
 
         private void btnOptimizeSettings_Click(object sender, EventArgs e)
         {
             showSubMenu(panelOptimizeSettings);
+            Navigate.Navegar("VistaInicio");
         }
     }
 }
