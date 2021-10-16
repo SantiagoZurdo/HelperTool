@@ -15,7 +15,6 @@ namespace HelperToolRenovado
         private int borderSize = 0; //tama;o
         private int borderRadius = 20; //radio
         private Color borderColor = Color.PaleVioletRed; //color
-
         public FlatButton()
         {
             this.FlatStyle = FlatStyle.Flat;
@@ -25,13 +24,13 @@ namespace HelperToolRenovado
             this.ForeColor = Color.White;
             this.Resize += new EventHandler(Button_Resize);
         }
-
         private void Button_Resize(object sender, EventArgs e)
         {
             if (borderRadius > this.Height)
+            {
                 borderRadius = this.Height;
+            } 
         }
-        //Methods
         private GraphicsPath GetFigurePath(Rectangle rect, float radius)
         {
             GraphicsPath path = new GraphicsPath();
@@ -44,9 +43,6 @@ namespace HelperToolRenovado
             path.CloseFigure();
             return path;
         }
-
-        //Properties
-        [Category("RJ Code Advance")]
         public int BorderSize
         {
             get { return borderSize; }
@@ -56,8 +52,6 @@ namespace HelperToolRenovado
                 this.Invalidate();
             }
         }
-
-        [Category("RJ Code Advance")]
         public int BorderRadius
         {
             get { return borderRadius; }
@@ -67,8 +61,6 @@ namespace HelperToolRenovado
                 this.Invalidate();
             }
         }
-
-        [Category("RJ Code Advance")]
         public Color BorderColor
         {
             get { return borderColor; }
@@ -78,31 +70,27 @@ namespace HelperToolRenovado
                 this.Invalidate();
             }
         }
-        [Category("RJ Code Advance")]
         public Color BackgroundColor
         {
             get { return this.BackColor; }
             set { this.BackColor = value; }
         }
-
-        [Category("RJ Code Advance")]
         public Color TextColor
         {
             get { return this.ForeColor; }
             set { this.ForeColor = value; }
         }
-
         protected override void OnPaint(PaintEventArgs pevent)
         {
             base.OnPaint(pevent);
-
             Rectangle rectSurface = this.ClientRectangle;
             Rectangle rectBorder = Rectangle.Inflate(rectSurface, -borderSize, -borderSize);
             int smoothSize = 2;
             if (borderSize > 0)
+            {
                 smoothSize = borderSize;
-
-            if (borderRadius > 2) //Rounded button
+            }
+            if (borderRadius > 2) 
             {
                 using (GraphicsPath pathSurface = GetFigurePath(rectSurface, borderRadius))
                 using (GraphicsPath pathBorder = GetFigurePath(rectBorder, borderRadius - borderSize))
@@ -110,23 +98,18 @@ namespace HelperToolRenovado
                 using (Pen penBorder = new Pen(borderColor, borderSize))
                 {
                     pevent.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
-                    //Button surface
                     this.Region = new Region(pathSurface);
-                    //Draw surface border for HD result
                     pevent.Graphics.DrawPath(penSurface, pathSurface);
-
-                    //Button border                    
                     if (borderSize >= 1)
-                        //Draw control border
+                    {
                         pevent.Graphics.DrawPath(penBorder, pathBorder);
+                    } 
                 }
             }
-            else //Normal button
+            else
             {
                 pevent.Graphics.SmoothingMode = SmoothingMode.None;
-                //Button surface
                 this.Region = new Region(rectSurface);
-                //Button border
                 if (borderSize >= 1)
                 {
                     using (Pen penBorder = new Pen(borderColor, borderSize))
@@ -142,13 +125,9 @@ namespace HelperToolRenovado
             base.OnHandleCreated(e);
             this.Parent.BackColorChanged += new EventHandler(Container_BackColorChanged);
         }
-
         private void Container_BackColorChanged(object sender, EventArgs e)
         {
             this.Invalidate();
         }
-
-
-
     }
 }

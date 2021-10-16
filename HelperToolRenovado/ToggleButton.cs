@@ -17,8 +17,6 @@ namespace HelperToolRenovado
         public Color offBackColor = Color.Gray;
         public Color offToggleColor = Color.Gainsboro;
         public bool solidStyle = true;
-
-        [Category("Code advanc")]
         public Color OnBackColor
         {
             get { return onBackColor; }
@@ -28,7 +26,6 @@ namespace HelperToolRenovado
                 this.Invalidate();
             }
         }
-        [Category("Code advanc")]
         public Color OnToggleColor
         {
             get { return onToggleColor; }
@@ -38,7 +35,6 @@ namespace HelperToolRenovado
                 this.Invalidate();
             }
         }
-        [Category("Code advanc")]
         public Color OffBackColor
         {
             get { return offBackColor; }
@@ -48,7 +44,6 @@ namespace HelperToolRenovado
                 this.Invalidate();
             }
         }
-        [Category("Code advanc")]
         public Color OffToggleColor
         {
             get { return offToggleColor; }
@@ -58,14 +53,11 @@ namespace HelperToolRenovado
                 this.Invalidate();
             }
         }
-        [Browsable(false)]
         public override string Text
         {
             get { return base.Text; }
             set { }
         }
-        [Category("Code advanc")]
-        [DefaultValue(true)]
         public bool SolidStyle
         {
             get { return solidStyle; }
@@ -75,13 +67,11 @@ namespace HelperToolRenovado
                 this.Invalidate();
             }
         }
-
         public Color OnBackColor1 { get => onBackColor; set => onBackColor = value; }
         public Color OnToggleColor1 { get => onToggleColor; set => onToggleColor = value; }
         public Color OffBackColor1 { get => offBackColor; set => offBackColor = value; }
         public Color OffToggleColor1 { get => offToggleColor; set => offToggleColor = value; }
         public bool SolidStyle1 { get => solidStyle; set => solidStyle = value; }
-
         public ToggleButton()
         {
             this.MinimumSize = new Size(30,17);
