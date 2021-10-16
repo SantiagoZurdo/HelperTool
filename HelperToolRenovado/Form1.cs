@@ -78,6 +78,7 @@ namespace HelperToolRenovado
         static extern uint SHEmptyRecycleBin(IntPtr hwnd, string pszRootPath, RecycleFlags dwFlags);
         private async void  btnActivateW_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Remember that this function is only a demonstration of how it works, it will not really activate your operating system. If you want to do it please buy an official license.", "HelperTool Message.",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             Navigate.Navegar("VistaInicio");
             string windowsVersion = "";
             using (ManagementObjectSearcher buscador = new ManagementObjectSearcher("SELECT * FROM Win32_OperatingSystem"))
@@ -142,13 +143,11 @@ namespace HelperToolRenovado
         {
             Navigate.Navegar("VistaAdvancedControls");
         }
-
         private void btnActivationSettings_Click(object sender, EventArgs e)
         {
             showSubMenu(panelSubmenuActivation);
             Navigate.Navegar("VistaInicio");
         }
-
         private void btnOptimizeSettings_Click(object sender, EventArgs e)
         {
             showSubMenu(panelOptimizeSettings);
