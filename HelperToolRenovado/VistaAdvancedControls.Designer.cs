@@ -121,7 +121,7 @@ namespace HelperToolRenovado
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Black", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(320, 21);
+            this.label2.Location = new System.Drawing.Point(320, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(255, 33);
             this.label2.TabIndex = 37;
@@ -213,7 +213,7 @@ namespace HelperToolRenovado
             this.lblUncheckAll2.AutoSize = true;
             this.lblUncheckAll2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUncheckAll2.ForeColor = System.Drawing.Color.White;
-            this.lblUncheckAll2.Location = new System.Drawing.Point(155, 511);
+            this.lblUncheckAll2.Location = new System.Drawing.Point(155, 509);
             this.lblUncheckAll2.Name = "lblUncheckAll2";
             this.lblUncheckAll2.Size = new System.Drawing.Size(101, 20);
             this.lblUncheckAll2.TabIndex = 61;
@@ -223,7 +223,7 @@ namespace HelperToolRenovado
             // SwitchChecked
             // 
             this.SwitchChecked.AutoSize = true;
-            this.SwitchChecked.Location = new System.Drawing.Point(104, 509);
+            this.SwitchChecked.Location = new System.Drawing.Point(104, 507);
             this.SwitchChecked.MinimumSize = new System.Drawing.Size(45, 22);
             this.SwitchChecked.Name = "SwitchChecked";
             this.SwitchChecked.OffBackColor = System.Drawing.Color.Gray;

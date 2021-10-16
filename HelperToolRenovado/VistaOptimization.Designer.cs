@@ -223,7 +223,7 @@ namespace HelperToolRenovado
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(320, 21);
+            this.label1.Location = new System.Drawing.Point(320, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(241, 33);
             this.label1.TabIndex = 39;
@@ -279,7 +279,7 @@ namespace HelperToolRenovado
             this.lblUncheckAll.AutoSize = true;
             this.lblUncheckAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUncheckAll.ForeColor = System.Drawing.Color.White;
-            this.lblUncheckAll.Location = new System.Drawing.Point(163, 509);
+            this.lblUncheckAll.Location = new System.Drawing.Point(155, 509);
             this.lblUncheckAll.Name = "lblUncheckAll";
             this.lblUncheckAll.Size = new System.Drawing.Size(101, 20);
             this.lblUncheckAll.TabIndex = 59;
