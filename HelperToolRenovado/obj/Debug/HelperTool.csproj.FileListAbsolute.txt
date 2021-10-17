@@ -1,0 +1,14 @@
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\bin\Debug\HelperToolRenovado.exe.config
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\bin\Debug\HelperToolRenovado.exe
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\bin\Debug\HelperToolRenovado.pdb
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperTool.csproj.AssemblyReference.cache
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperToolRenovado.Form1.resources
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperToolRenovado.Properties.Resources.resources
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaAdvancedControls.resources
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaCarga.resources
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaInicio.resources
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperToolRenovado.VistaOptimization.resources
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperTool.csproj.GenerateResource.cache
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperTool.csproj.CoreCompileInputs.cache
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperToolRenovado.exe
+D:\Proyectos & Repositorios\HelperTool\HelperToolRenovado\obj\Debug\HelperToolRenovado.pdb
