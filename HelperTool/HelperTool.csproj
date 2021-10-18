@@ -94,6 +94,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Res.Designer.cs">
+      <DependentUpon>Res.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Res.ENG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Res.ENG.resx</DependentUpon>
+    </Compile>
     <Compile Include="ToggleButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -128,6 +138,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Res.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res.ENG.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Res.ENG.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="VistaAdvancedControls.resx">
       <DependentUpon>VistaAdvancedControls.cs</DependentUpon>

@@ -12,3 +12,5 @@ D:\Proyectos & Repositorios\HelperTool\HelperTool\obj\Debug\HelperToolRenovado.p
 D:\Proyectos & Repositorios\HelperTool\HelperTool\bin\Debug\HelperToolRenovado.exe.config
 D:\Proyectos & Repositorios\HelperTool\HelperTool\bin\Debug\HelperToolRenovado.exe
 D:\Proyectos & Repositorios\HelperTool\HelperTool\bin\Debug\HelperToolRenovado.pdb
+D:\Proyectos & Repositorios\HelperTool\HelperTool\obj\Debug\HelperToolRenovado.Res.resources
+D:\Proyectos & Repositorios\HelperTool\HelperTool\obj\Debug\HelperToolRenovado.Res.ENG.resources

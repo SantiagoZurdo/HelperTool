@@ -59,6 +59,6 @@ namespace HelperToolRenovado
 
         #endregion
 
-        private System.Windows.Forms.Label lblPleaseWait;
+        public System.Windows.Forms.Label lblPleaseWait;
     }
 }
