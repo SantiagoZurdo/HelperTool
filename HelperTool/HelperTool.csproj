@@ -107,6 +107,9 @@
     <Compile Include="ToggleButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Vista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="VistaAdvancedControls.cs">
       <SubType>UserControl</SubType>
     </Compile>

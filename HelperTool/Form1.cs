@@ -163,14 +163,16 @@ namespace HelperToolRenovado
         private void btnSpanish_Click(object sender, EventArgs e)
         {
             showSubMenu(panelLenguagesAnasheiiii);
-            GetTextEsp();
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es");
+            GetText();
         }
         private void btnEnglish_Click(object sender, EventArgs e)
         {
             showSubMenu(panelLenguagesAnasheiiii);
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            GetText();
         }
-        private void GetTextEsp()
+        private void GetText()
         {
             //Menu de botones
             btnActivationSettings.Text = Res.btnActivationSettings;
@@ -181,6 +183,7 @@ namespace HelperToolRenovado
             btnOptimizeMenu.Text = Res.btnOptimizeMenu;
             btnAdvancedMenuW.Text = Res.btnAdvancedMenuW;
             //fin menu botones
+            
         }
     }
 }
