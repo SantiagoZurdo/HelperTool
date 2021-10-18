@@ -43,12 +43,14 @@ namespace HelperToolRenovado
             this.panelLogo = new System.Windows.Forms.Panel();
             this.Logo = new System.Windows.Forms.PictureBox();
             this.lblNameProgram = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.MenuSelection.SuspendLayout();
             this.panelOptimizeSettings.SuspendLayout();
             this.panelSubmenuActivation.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuSelection
@@ -62,7 +64,7 @@ namespace HelperToolRenovado
             this.MenuSelection.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuSelection.Location = new System.Drawing.Point(0, 0);
             this.MenuSelection.Name = "MenuSelection";
-            this.MenuSelection.Size = new System.Drawing.Size(300, 672);
+            this.MenuSelection.Size = new System.Drawing.Size(300, 668);
             this.MenuSelection.TabIndex = 3;
             // 
             // panelOptimizeSettings
@@ -244,10 +246,22 @@ namespace HelperToolRenovado
             this.lblNameProgram.TabIndex = 16;
             this.lblNameProgram.Text = "HelperTool";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1213, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(41, 37);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Location = new System.Drawing.Point(317, 12);
+            this.panel1.Location = new System.Drawing.Point(306, 8);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(904, 648);
             this.panel1.TabIndex = 40;
@@ -257,7 +271,8 @@ namespace HelperToolRenovado
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(1233, 672);
+            this.ClientSize = new System.Drawing.Size(1261, 668);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.MenuSelection);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -272,6 +287,7 @@ namespace HelperToolRenovado
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -292,6 +308,7 @@ namespace HelperToolRenovado
         private System.Windows.Forms.Button btnAdvancedOptionsW;
         private System.Windows.Forms.Button btnOptimizeW;
         private System.Windows.Forms.Button btnOptimizeSettings;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
