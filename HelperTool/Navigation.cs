@@ -28,6 +28,5 @@ namespace HelperToolRenovado
                 Contenedor.Controls.Add(Vistas[nombre]);
             }
         }
-
     }
 }

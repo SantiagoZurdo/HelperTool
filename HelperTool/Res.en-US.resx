@@ -118,15 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnActivateW" xml:space="preserve">
-    <value>Activar Windows</value>
+    <value>Activation Settings</value>
   </data>
-  <data name="btnActivationSettings" xml:space="preserve">
-    <value>Herramienta de activacion</value>
+  <data name="btnActivateWindows" xml:space="preserve">
+    <value>Activate Windows</value>
   </data>
-  <data name="btnDeactivateW" xml:space="preserve">
-    <value>Desactivar Windows</value>
+  <data name="btnAdvancedMenuW" xml:space="preserve">
+    <value>Advanced Menu</value>
+  </data>
+  <data name="btnDeactivateWindows" xml:space="preserve">
+    <value>Deactivate Windows</value>
+  </data>
+  <data name="btnOptimizeMenu" xml:space="preserve">
+    <value>Optimize Menu</value>
+  </data>
+  <data name="btnOptimizeSettings" xml:space="preserve">
+    <value>Optimize Settings</value>
   </data>
   <data name="btnShowWversion" xml:space="preserve">
-    <value>Mostar version de windows</value>
+    <value>Show Windows Version</value>
   </data>
 </root>

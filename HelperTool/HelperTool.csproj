@@ -99,10 +99,10 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Res.ENG.Designer.cs">
+    <Compile Include="Res.en-US.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Res.ENG.resx</DependentUpon>
+      <DependentUpon>Res.en-US.resx</DependentUpon>
     </Compile>
     <Compile Include="ToggleButton.cs">
       <SubType>Component</SubType>
@@ -143,9 +143,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Res.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Res.ENG.resx">
+    <EmbeddedResource Include="Res.en-US.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Res.ENG.Designer.cs</LastGenOutput>
+      <LastGenOutput>Res.en-US.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="VistaAdvancedControls.resx">
       <DependentUpon>VistaAdvancedControls.cs</DependentUpon>

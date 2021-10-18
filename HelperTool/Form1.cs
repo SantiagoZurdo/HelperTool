@@ -163,14 +163,14 @@ namespace HelperToolRenovado
         private void btnSpanish_Click(object sender, EventArgs e)
         {
             showSubMenu(panelLenguagesAnasheiiii);
-            GetTextEng();
+            GetTextEsp();
         }
         private void btnEnglish_Click(object sender, EventArgs e)
         {
             showSubMenu(panelLenguagesAnasheiiii);
-            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ES");
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
         }
-        private void GetTextEng()
+        private void GetTextEsp()
         {
             //Menu de botones
             btnActivationSettings.Text = Res.btnActivationSettings;

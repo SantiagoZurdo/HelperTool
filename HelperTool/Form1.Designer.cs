@@ -254,7 +254,7 @@ namespace HelperToolRenovado
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1302, 10);
+            this.pictureBox1.Location = new System.Drawing.Point(1251, 8);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(114, 37);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -265,7 +265,7 @@ namespace HelperToolRenovado
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Location = new System.Drawing.Point(392, 8);
+            this.panel1.Location = new System.Drawing.Point(341, 8);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(904, 648);
             this.panel1.TabIndex = 40;
@@ -275,7 +275,7 @@ namespace HelperToolRenovado
             this.panelLenguagesAnasheiiii.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
             this.panelLenguagesAnasheiiii.Controls.Add(this.btnEglish);
             this.panelLenguagesAnasheiiii.Controls.Add(this.btnSpanish);
-            this.panelLenguagesAnasheiiii.Location = new System.Drawing.Point(1302, 53);
+            this.panelLenguagesAnasheiiii.Location = new System.Drawing.Point(1251, 51);
             this.panelLenguagesAnasheiiii.Name = "panelLenguagesAnasheiiii";
             this.panelLenguagesAnasheiiii.Size = new System.Drawing.Size(114, 139);
             this.panelLenguagesAnasheiiii.TabIndex = 41;
@@ -290,7 +290,7 @@ namespace HelperToolRenovado
             this.btnEglish.Location = new System.Drawing.Point(0, 56);
             this.btnEglish.Name = "btnEglish";
             this.btnEglish.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnEglish.Size = new System.Drawing.Size(114, 56);
+            this.btnEglish.Size = new System.Drawing.Size(114, 57);
             this.btnEglish.TabIndex = 1;
             this.btnEglish.Text = "ENG";
             this.btnEglish.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -319,7 +319,7 @@ namespace HelperToolRenovado
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(1428, 668);
+            this.ClientSize = new System.Drawing.Size(1373, 668);
             this.Controls.Add(this.panelLenguagesAnasheiiii);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
