@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace HelperToolRenovado
 {
-    public partial class VistaAdvancedControls : Vista
+    public partial class VistaAdvancedControls : UserControl, IVista
     {
         List<CheckBox> listacheckAdvanced;
         
@@ -138,6 +138,9 @@ namespace HelperToolRenovado
                 lblUncheckAll2.Visible = false;
                 lblCheckAll2.Visible = true;
             }
+        }
+
+        public void Traducir() {
         }
     }
 }

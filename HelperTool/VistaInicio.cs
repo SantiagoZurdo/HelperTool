@@ -2,11 +2,15 @@
 
 namespace HelperToolRenovado
 {
-    public partial class VistaInicio : Vista
+    public partial class VistaInicio : UserControl, IVista
     {
         public VistaInicio()
         {
             InitializeComponent();
+        }
+
+        public void Traducir() {
+            throw new System.NotImplementedException();
         }
     }
 }

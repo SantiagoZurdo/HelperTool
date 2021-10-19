@@ -10,16 +10,16 @@ namespace HelperToolRenovado
     class Navigation
     {
         private Panel Contenedor;
-        private Dictionary<string, Vista> Vistas = new Dictionary<string, Vista>();
+        private Dictionary<string, IVista> Vistas = new Dictionary<string, IVista>();
 
         public Navigation(Panel contenedor)
         {
             Contenedor = contenedor;
         }
 
-        public void AgregarVista(string nombre, Vista vista)
+        public void AgregarVista(string nombre, IVista vista)
         {
-            Vistas.Add(nombre, vista);
+            if (vista is UserControl) Vistas.Add(nombre, vista);
         }
 
         public void Navegar(string nombre)
@@ -27,24 +27,12 @@ namespace HelperToolRenovado
             if (Vistas.ContainsKey(nombre))
             {
                 Contenedor.Controls.Clear();
-                Contenedor.Controls.Add(Vistas[nombre]);
+                Contenedor.Controls.Add((UserControl)Vistas[nombre]);
             }
         }
-        public Vista GetVista(string nombre)
+        public IVista GetVista(string nombre)
         {
             return Vistas.ContainsKey(nombre) ? Vistas[nombre] : null;
-        }
-    }
-    // Para todas las vistas, heredan Vista y se implement el método Traducir
-    public partial class VistaCarga : Vista
-    {
-        public VistaCarga()
-        {
-            InitializeComponent();
-        }
-        public void Traducir(string lang)
-        {
-            //Traducir alsfasfas
         }
     }
 

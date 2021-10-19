@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace HelperToolRenovado
 {
-    public partial class VistaOptimization : Vista
+    public partial class VistaOptimization : UserControl, IVista
     {
         List<CheckBox> listacheckOptimizeOptions;
         public VistaOptimization()
@@ -20,6 +20,11 @@ namespace HelperToolRenovado
             InitializeComponent();
             listacheckOptimizeOptions = new List<CheckBox> {checkDelTempFilesUpdate, checkDeleteTempFiles, checkCacheDNS, checkClearEvLog, checkClearCache, checkEnergyPlan, checkDisableGameModeWin, checkDisablePushN, checkDisableSysM, checkDisableUpdates, checkDisableSearch, checkDisableServices, checkClearRecyclebin };
         }
+
+        public void Traducir() {
+
+        }
+
         enum RecycleFlags : uint {SHRB_NOCONFIRMATION = 0x00000001,SHRB_NOPROGRESSUI = 0x00000002,SHRB_NOSOUND = 0x00000004}
         [DllImport("Shell32.dll", CharSet = CharSet.Unicode)]
         static extern uint SHEmptyRecycleBin(IntPtr hwnd, string pszRootPath, RecycleFlags dwFlags);

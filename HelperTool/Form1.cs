@@ -183,6 +183,9 @@ namespace HelperToolRenovado
             btnOptimizeMenu.Text = Res.btnOptimizeMenu;
             btnAdvancedMenuW.Text = Res.btnAdvancedMenuW;
             //fin menu botones
+
+            //Traducir una vista Ej
+            Navigate.GetVista("VistaInicio").Traducir();
             
         }
     }
