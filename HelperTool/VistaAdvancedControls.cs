@@ -140,7 +140,22 @@ namespace HelperToolRenovado
             }
         }
 
-        public void Traducir() {
+        public void Traducir() 
+        {
+            checkBoxDelMusic.Text = Res.checkBoxDelMusic;
+            checkBoxDelImage.Text = Res.checkBoxDelImage;
+            checkBoxDelVideo.Text = Res.checkBoxDelVideo;
+            checkBoxDelObjects.Text = Res.checkBoxDelObjects;
+            checkBoxDelFastAccs.Text = Res.checkBoxDelFastAccs;
+            checkBoxUnistallOneDrive.Text = Res.checkBoxUnistallOneDrive;
+            checkBoxDisableFirewall.Text = Res.checkBoxDisableFirewall;
+            checkBoxDisableRunasAdmin.Text = Res.checkBoxDisableRunasAdmin;
+            checkBoxDisableNotifications.Text = Res.checkBoxDisableNotifications;
+            checkBoxDisableDefender.Text = Res.checkBoxDisableDefender;
+            label2.Text = Res.label2;
+            lblCheckAll2.Text = Res.lblCheckAll2;
+            lblUncheckAll2.Text = Res.lblUncheckAll2;
+            btnGoAdvancedOptions.Text = Res.btnGoAdvancedOptions;
         }
     }
 }

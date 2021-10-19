@@ -4,13 +4,13 @@ namespace HelperToolRenovado
 {
     public partial class VistaCarga : UserControl, IVista
     {
-        public VistaCarga() {
+        public VistaCarga() 
+        {
             InitializeComponent();
-
         }
-
-        public void Traducir() {
-            throw new System.NotImplementedException();
+        public void Traducir() 
+        {
+            lblPleaseWait.Text = Res.lblPleaseWait;
         }
     }
 }

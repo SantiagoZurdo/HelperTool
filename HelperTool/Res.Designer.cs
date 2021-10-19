@@ -97,6 +97,15 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Optimizar Ahora.
+        /// </summary>
+        internal static string btnGoAdvancedOptions {
+            get {
+                return ResourceManager.GetString("btnGoAdvancedOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Menu de Optimizacion.
         /// </summary>
         internal static string btnOptimizeMenu {
@@ -115,11 +124,308 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Optimizar Ahora.
+        /// </summary>
+        internal static string btnOptmizeNow {
+            get {
+                return ResourceManager.GetString("btnOptmizeNow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Deshcer todo.
+        /// </summary>
+        internal static string btnRollback2 {
+            get {
+                return ResourceManager.GetString("btnRollback2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Mostrar mi version de Windows.
         /// </summary>
         internal static string btnShowWversion {
             get {
                 return ResourceManager.GetString("btnShowWversion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Eliminar acceso rapido .
+        /// </summary>
+        internal static string checkBoxDelFastAccs {
+            get {
+                return ResourceManager.GetString("checkBoxDelFastAccs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Eliminar carpeta Imagenes.
+        /// </summary>
+        internal static string checkBoxDelImage {
+            get {
+                return ResourceManager.GetString("checkBoxDelImage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Eliminar carpeta Musica.
+        /// </summary>
+        internal static string checkBoxDelMusic {
+            get {
+                return ResourceManager.GetString("checkBoxDelMusic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Eliminar carpeta Objetos3D.
+        /// </summary>
+        internal static string checkBoxDelObjects {
+            get {
+                return ResourceManager.GetString("checkBoxDelObjects", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Eliminar carpeta Videos.
+        /// </summary>
+        internal static string checkBoxDelVideo {
+            get {
+                return ResourceManager.GetString("checkBoxDelVideo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Desactivar Windows Defeneder.
+        /// </summary>
+        internal static string checkBoxDisableDefender {
+            get {
+                return ResourceManager.GetString("checkBoxDisableDefender", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Desactivar Firewall.
+        /// </summary>
+        internal static string checkBoxDisableFirewall {
+            get {
+                return ResourceManager.GetString("checkBoxDisableFirewall", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Desactivar notificaciones de windows.
+        /// </summary>
+        internal static string checkBoxDisableNotifications {
+            get {
+                return ResourceManager.GetString("checkBoxDisableNotifications", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Desactivar notificaciones de ejecutar como administrador.
+        /// </summary>
+        internal static string checkBoxDisableRunasAdmin {
+            get {
+                return ResourceManager.GetString("checkBoxDisableRunasAdmin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Desinstalar OneDrive.
+        /// </summary>
+        internal static string checkBoxUnistallOneDrive {
+            get {
+                return ResourceManager.GetString("checkBoxUnistallOneDrive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Borrar caché DNS.
+        /// </summary>
+        internal static string checkCacheDNS {
+            get {
+                return ResourceManager.GetString("checkCacheDNS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Borrar caché.
+        /// </summary>
+        internal static string checkClearCache {
+            get {
+                return ResourceManager.GetString("checkClearCache", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Borrar registro de eventos.
+        /// </summary>
+        internal static string checkClearEvLog {
+            get {
+                return ResourceManager.GetString("checkClearEvLog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Vaciar papelera de reciclaje.
+        /// </summary>
+        internal static string checkClearRecyclebin {
+            get {
+                return ResourceManager.GetString("checkClearRecyclebin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Borrar archivos temporales.
+        /// </summary>
+        internal static string checkDeleteTempFiles {
+            get {
+                return ResourceManager.GetString("checkDeleteTempFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Borrar archivos temporales de actualizaciones en windows.
+        /// </summary>
+        internal static string checkDelTempFilesUpdate {
+            get {
+                return ResourceManager.GetString("checkDelTempFilesUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Deshabilitar modo juego de windows.
+        /// </summary>
+        internal static string checkDisableGameModeWin {
+            get {
+                return ResourceManager.GetString("checkDisableGameModeWin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Deshabilitar notificaciones (Windows push).
+        /// </summary>
+        internal static string checkDisablePushN {
+            get {
+                return ResourceManager.GetString("checkDisablePushN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Deshabilitar Busqueda de Windows.
+        /// </summary>
+        internal static string checkDisableSearch {
+            get {
+                return ResourceManager.GetString("checkDisableSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Deshabilitar Servicios Innecesarios.
+        /// </summary>
+        internal static string checkDisableServices {
+            get {
+                return ResourceManager.GetString("checkDisableServices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Deshabilitar SysMain (servicio).
+        /// </summary>
+        internal static string checkDisableSysM {
+            get {
+                return ResourceManager.GetString("checkDisableSysM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Deshabilitar Actualizaciones de Windows.
+        /// </summary>
+        internal static string checkDisableUpdates {
+            get {
+                return ResourceManager.GetString("checkDisableUpdates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a -Plan de energia Maximo Rendimiento.
+        /// </summary>
+        internal static string checkEnergyPlan {
+            get {
+                return ResourceManager.GetString("checkEnergyPlan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Opciones de Optimizacion.
+        /// </summary>
+        internal static string label1 {
+            get {
+                return ResourceManager.GetString("label1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Opciones Avanzadas.
+        /// </summary>
+        internal static string label2 {
+            get {
+                return ResourceManager.GetString("label2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Marcar todo.
+        /// </summary>
+        internal static string lblCheckAll {
+            get {
+                return ResourceManager.GetString("lblCheckAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Marcar todo.
+        /// </summary>
+        internal static string lblCheckAll2 {
+            get {
+                return ResourceManager.GetString("lblCheckAll2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Esto tomara solo un par de segundos ....
+        /// </summary>
+        internal static string lblPleaseWait {
+            get {
+                return ResourceManager.GetString("lblPleaseWait", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Desmarcar todo.
+        /// </summary>
+        internal static string lblUncheckAll {
+            get {
+                return ResourceManager.GetString("lblUncheckAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Desmarcar todo.
+        /// </summary>
+        internal static string lblUncheckAll2 {
+            get {
+                return ResourceManager.GetString("lblUncheckAll2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Bienvenido a HelperTool.
+        /// </summary>
+        internal static string lblWelcome {
+            get {
+                return ResourceManager.GetString("lblWelcome", resourceCulture);
             }
         }
     }

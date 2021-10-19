@@ -257,7 +257,7 @@ namespace HelperToolRenovado
             // rjToggleButton1
             // 
             this.rjToggleButton1.AutoSize = true;
-            this.rjToggleButton1.Location = new System.Drawing.Point(104, 507);
+            this.rjToggleButton1.Location = new System.Drawing.Point(133, 507);
             this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
             this.rjToggleButton1.Name = "rjToggleButton1";
             this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
@@ -269,6 +269,7 @@ namespace HelperToolRenovado
             this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
             this.rjToggleButton1.OnToggleColor1 = System.Drawing.Color.WhiteSmoke;
             this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.SolidStyle = true;
             this.rjToggleButton1.SolidStyle1 = true;
             this.rjToggleButton1.TabIndex = 57;
             this.rjToggleButton1.UseVisualStyleBackColor = true;
@@ -279,7 +280,7 @@ namespace HelperToolRenovado
             this.lblUncheckAll.AutoSize = true;
             this.lblUncheckAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUncheckAll.ForeColor = System.Drawing.Color.White;
-            this.lblUncheckAll.Location = new System.Drawing.Point(155, 509);
+            this.lblUncheckAll.Location = new System.Drawing.Point(184, 509);
             this.lblUncheckAll.Name = "lblUncheckAll";
             this.lblUncheckAll.Size = new System.Drawing.Size(101, 20);
             this.lblUncheckAll.TabIndex = 59;

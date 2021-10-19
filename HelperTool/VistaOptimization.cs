@@ -20,11 +20,6 @@ namespace HelperToolRenovado
             InitializeComponent();
             listacheckOptimizeOptions = new List<CheckBox> {checkDelTempFilesUpdate, checkDeleteTempFiles, checkCacheDNS, checkClearEvLog, checkClearCache, checkEnergyPlan, checkDisableGameModeWin, checkDisablePushN, checkDisableSysM, checkDisableUpdates, checkDisableSearch, checkDisableServices, checkClearRecyclebin };
         }
-
-        public void Traducir() {
-
-        }
-
         enum RecycleFlags : uint {SHRB_NOCONFIRMATION = 0x00000001,SHRB_NOPROGRESSUI = 0x00000002,SHRB_NOSOUND = 0x00000004}
         [DllImport("Shell32.dll", CharSet = CharSet.Unicode)]
         static extern uint SHEmptyRecycleBin(IntPtr hwnd, string pszRootPath, RecycleFlags dwFlags);
@@ -221,6 +216,27 @@ namespace HelperToolRenovado
                     Process.Start("shutdown", "/r /t 0");
                 }
             }
+        }
+        public void Traducir()
+        {
+            checkDelTempFilesUpdate.Text = Res.checkDelTempFilesUpdate;
+            checkDeleteTempFiles.Text = Res.checkDeleteTempFiles;
+            checkCacheDNS.Text = Res.checkCacheDNS;
+            checkClearEvLog.Text = Res.checkClearEvLog;
+            checkClearCache.Text = Res.checkClearCache;
+            checkEnergyPlan.Text = Res.checkEnergyPlan;
+            checkDisableGameModeWin.Text = Res.checkDisableGameModeWin;
+            checkDisablePushN.Text = Res.checkDisablePushN;
+            checkDisableSysM.Text = Res.checkDisableSysM;
+            checkDisableUpdates.Text = Res.checkDisableUpdates;
+            checkDisableSearch.Text = Res.checkDisableSearch;
+            checkDisableServices.Text = Res.checkDisableServices;
+            checkClearRecyclebin.Text = Res.checkClearRecyclebin;
+            lblCheckAll.Text = Res.lblCheckAll;
+            lblUncheckAll.Text = Res.lblUncheckAll;
+            btnOptmizeNow.Text = Res.btnOptmizeNow;
+            btnRollback2.Text = Res.btnRollback2;
+            label1.Text = Res.label1;
         }
     }
 }

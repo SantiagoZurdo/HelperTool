@@ -129,13 +129,119 @@
   <data name="btnDeactivateWindows" xml:space="preserve">
     <value>Deactivate Windows</value>
   </data>
+  <data name="btnGoAdvancedOptions" xml:space="preserve">
+    <value>Optimize Now</value>
+  </data>
   <data name="btnOptimizeMenu" xml:space="preserve">
     <value>Optimize Menu</value>
   </data>
   <data name="btnOptimizeSettings" xml:space="preserve">
     <value>Optimize Settings</value>
   </data>
+  <data name="btnOptmizeNow" xml:space="preserve">
+    <value>Optimize Now</value>
+  </data>
+  <data name="btnRollback2" xml:space="preserve">
+    <value>Roll Back</value>
+  </data>
   <data name="btnShowWversion" xml:space="preserve">
     <value>Show Windows Version</value>
+  </data>
+  <data name="checkBoxDelFastAccs" xml:space="preserve">
+    <value>- Delete fast acces folder</value>
+  </data>
+  <data name="checkBoxDelImage" xml:space="preserve">
+    <value>- Delete image folder</value>
+  </data>
+  <data name="checkBoxDelMusic" xml:space="preserve">
+    <value>- Delete music folder</value>
+  </data>
+  <data name="checkBoxDelObjects" xml:space="preserve">
+    <value>- Delete objects3D folder</value>
+  </data>
+  <data name="checkBoxDelVideo" xml:space="preserve">
+    <value>- Delete video folder</value>
+  </data>
+  <data name="checkBoxDisableDefender" xml:space="preserve">
+    <value>- Disable Windows Defender</value>
+  </data>
+  <data name="checkBoxDisableFirewall" xml:space="preserve">
+    <value>- Disable Firewall</value>
+  </data>
+  <data name="checkBoxDisableNotifications" xml:space="preserve">
+    <value>- Disable all Windows notifications</value>
+  </data>
+  <data name="checkBoxDisableRunasAdmin" xml:space="preserve">
+    <value>- Disable run as administrator messages</value>
+  </data>
+  <data name="checkBoxUnistallOneDrive" xml:space="preserve">
+    <value>- Unistall OneDrive</value>
+  </data>
+  <data name="checkCacheDNS" xml:space="preserve">
+    <value>- Clear DNS cache</value>
+  </data>
+  <data name="checkClearCache" xml:space="preserve">
+    <value>- Clear cache</value>
+  </data>
+  <data name="checkClearEvLog" xml:space="preserve">
+    <value>- Clear event log</value>
+  </data>
+  <data name="checkClearRecyclebin" xml:space="preserve">
+    <value>- Clear Recycle bin</value>
+  </data>
+  <data name="checkDeleteTempFiles" xml:space="preserve">
+    <value>- Delete temporary files</value>
+  </data>
+  <data name="checkDelTempFilesUpdate" xml:space="preserve">
+    <value>- Delete temporary files from windows updates</value>
+  </data>
+  <data name="checkDisableGameModeWin" xml:space="preserve">
+    <value>- Disable game Mode</value>
+  </data>
+  <data name="checkDisablePushN" xml:space="preserve">
+    <value>- Disable windows Push notification service</value>
+  </data>
+  <data name="checkDisableSearch" xml:space="preserve">
+    <value>- Disable windows search</value>
+  </data>
+  <data name="checkDisableServices" xml:space="preserve">
+    <value>- Disable unnecessary services</value>
+  </data>
+  <data name="checkDisableSysM" xml:space="preserve">
+    <value>- Disable Sysmain</value>
+  </data>
+  <data name="checkDisableUpdates" xml:space="preserve">
+    <value>- Disable windows update</value>
+  </data>
+  <data name="checkEnergyPlan" xml:space="preserve">
+    <value>- Maximum performance energy plan</value>
+  </data>
+  <data name="label1" xml:space="preserve">
+    <value>Optimize Options</value>
+  </data>
+  <data name="label2" xml:space="preserve">
+    <value>Advanced Options</value>
+  </data>
+  <data name="lblCheckAll" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="lblCheckAll2" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="lblPleaseWait" xml:space="preserve">
+    <value>Please wait this will take a few minutes ...</value>
+  </data>
+  <data name="lblUncheckAll" xml:space="preserve">
+    <value>UnCheck All</value>
+  </data>
+  <data name="lblUncheckAll2" xml:space="preserve">
+    <value>UnCheck All</value>
+  </data>
+  <data name="lblWelcome" xml:space="preserve">
+    <value>Welcome to HelperTool
+
+
+
+         ENJOY IT &lt;3</value>
   </data>
 </root>

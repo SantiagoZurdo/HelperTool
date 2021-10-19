@@ -21,8 +21,7 @@ namespace HelperToolRenovado
             Navigate.AgregarVista("VistaCarga", new VistaCarga());
             Navigate.AgregarVista("VistaAdvancedControls", new VistaAdvancedControls());
             Navigate.AgregarVista("VistaOptimization", new VistaOptimization());
-            //Navigate.Navegar("VistaInicio");
-            Navigate.Navegar("VistaCarga");
+            Navigate.Navegar("VistaInicio");
 
             diccionarioKeys = new Dictionary<string, string>()
             {
@@ -185,8 +184,12 @@ namespace HelperToolRenovado
             //fin menu botones
 
             //Traducir una vista Ej
+            Navigate.GetVista("VistaCarga").Traducir();
             Navigate.GetVista("VistaInicio").Traducir();
-            
+            Navigate.GetVista("VistaOptimization").Traducir();
+            Navigate.GetVista("VistaAdvancedControls").Traducir();
+
+
         }
     }
 }

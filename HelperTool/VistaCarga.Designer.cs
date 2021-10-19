@@ -37,7 +37,7 @@ namespace HelperToolRenovado
             this.lblPleaseWait.AutoSize = true;
             this.lblPleaseWait.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPleaseWait.ForeColor = System.Drawing.Color.White;
-            this.lblPleaseWait.Location = new System.Drawing.Point(52, 285);
+            this.lblPleaseWait.Location = new System.Drawing.Point(50, 285);
             this.lblPleaseWait.Name = "lblPleaseWait";
             this.lblPleaseWait.Size = new System.Drawing.Size(785, 46);
             this.lblPleaseWait.TabIndex = 6;

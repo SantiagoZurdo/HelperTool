@@ -213,7 +213,7 @@ namespace HelperToolRenovado
             this.lblUncheckAll2.AutoSize = true;
             this.lblUncheckAll2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUncheckAll2.ForeColor = System.Drawing.Color.White;
-            this.lblUncheckAll2.Location = new System.Drawing.Point(155, 509);
+            this.lblUncheckAll2.Location = new System.Drawing.Point(183, 509);
             this.lblUncheckAll2.Name = "lblUncheckAll2";
             this.lblUncheckAll2.Size = new System.Drawing.Size(101, 20);
             this.lblUncheckAll2.TabIndex = 61;
@@ -223,7 +223,7 @@ namespace HelperToolRenovado
             // SwitchChecked
             // 
             this.SwitchChecked.AutoSize = true;
-            this.SwitchChecked.Location = new System.Drawing.Point(104, 507);
+            this.SwitchChecked.Location = new System.Drawing.Point(132, 507);
             this.SwitchChecked.MinimumSize = new System.Drawing.Size(45, 22);
             this.SwitchChecked.Name = "SwitchChecked";
             this.SwitchChecked.OffBackColor = System.Drawing.Color.Gray;
@@ -235,6 +235,7 @@ namespace HelperToolRenovado
             this.SwitchChecked.OnToggleColor = System.Drawing.Color.WhiteSmoke;
             this.SwitchChecked.OnToggleColor1 = System.Drawing.Color.WhiteSmoke;
             this.SwitchChecked.Size = new System.Drawing.Size(45, 22);
+            this.SwitchChecked.SolidStyle = true;
             this.SwitchChecked.SolidStyle1 = true;
             this.SwitchChecked.TabIndex = 58;
             this.SwitchChecked.UseVisualStyleBackColor = true;

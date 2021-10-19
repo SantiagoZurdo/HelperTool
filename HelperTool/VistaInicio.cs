@@ -9,8 +9,9 @@ namespace HelperToolRenovado
             InitializeComponent();
         }
 
-        public void Traducir() {
-            throw new System.NotImplementedException();
+        public void Traducir() 
+        {
+            lblWelcome.Text = Res.lblWelcome;
         }
     }
 }
