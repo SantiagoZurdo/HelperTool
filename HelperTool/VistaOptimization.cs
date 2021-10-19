@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace HelperToolRenovado
 {
-    public partial class VistaOptimization : UserControl
+    public partial class VistaOptimization : Vista
     {
         List<CheckBox> listacheckOptimizeOptions;
         public VistaOptimization()
@@ -178,7 +178,6 @@ namespace HelperToolRenovado
             }
             catch (Exception) { }
         }
-
         private void btnRollback2_Click(object sender, EventArgs e)
         {
             DialogResult result1;

@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace HelperToolRenovado
 {
-    public partial class VistaAdvancedControls : UserControl
+    public partial class VistaAdvancedControls : Vista
     {
         List<CheckBox> listacheckAdvanced;
         

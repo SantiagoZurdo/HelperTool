@@ -30,13 +30,11 @@ namespace HelperToolRenovado
                 Contenedor.Controls.Add(Vistas[nombre]);
             }
         }
-
         public Vista GetVista(string nombre)
         {
             return Vistas.ContainsKey(nombre) ? Vistas[nombre] : null;
         }
     }
-
     // Para todas las vistas, heredan Vista y se implement el método Traducir
     public partial class VistaCarga : Vista
     {
@@ -50,5 +48,4 @@ namespace HelperToolRenovado
         }
     }
 
-}
 }

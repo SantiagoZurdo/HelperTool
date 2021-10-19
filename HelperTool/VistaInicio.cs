@@ -2,7 +2,7 @@
 
 namespace HelperToolRenovado
 {
-    public partial class VistaInicio : UserControl
+    public partial class VistaInicio : Vista
     {
         public VistaInicio()
         {

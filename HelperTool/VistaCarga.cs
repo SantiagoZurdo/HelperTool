@@ -2,7 +2,7 @@
 
 namespace HelperToolRenovado
 {
-    public partial class VistaCarga : UserControl
+    public partial class VistaCarga : Vista
     {
         public VistaCarga()
         {
