@@ -151,7 +151,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Eliminar acceso rapido .
+        ///   Busca una cadena traducida similar a - Eliminar acceso rapido .
         /// </summary>
         internal static string checkBoxDelFastAccs {
             get {
@@ -160,7 +160,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Eliminar carpeta Imagenes.
+        ///   Busca una cadena traducida similar a - Eliminar carpeta Imagenes.
         /// </summary>
         internal static string checkBoxDelImage {
             get {
@@ -169,7 +169,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Eliminar carpeta Musica.
+        ///   Busca una cadena traducida similar a - Eliminar carpeta Musica.
         /// </summary>
         internal static string checkBoxDelMusic {
             get {
@@ -178,7 +178,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Eliminar carpeta Objetos3D.
+        ///   Busca una cadena traducida similar a - Eliminar carpeta Objetos3D.
         /// </summary>
         internal static string checkBoxDelObjects {
             get {
@@ -187,7 +187,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Eliminar carpeta Videos.
+        ///   Busca una cadena traducida similar a - Eliminar carpeta Videos.
         /// </summary>
         internal static string checkBoxDelVideo {
             get {
@@ -196,7 +196,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Desactivar Windows Defeneder.
+        ///   Busca una cadena traducida similar a - Desactivar Windows Defeneder.
         /// </summary>
         internal static string checkBoxDisableDefender {
             get {
@@ -205,7 +205,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Desactivar Firewall.
+        ///   Busca una cadena traducida similar a - Desactivar Firewall.
         /// </summary>
         internal static string checkBoxDisableFirewall {
             get {
@@ -214,7 +214,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Desactivar notificaciones de windows.
+        ///   Busca una cadena traducida similar a - Desactivar notificaciones de windows.
         /// </summary>
         internal static string checkBoxDisableNotifications {
             get {
@@ -223,7 +223,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Desactivar notificaciones de ejecutar como administrador.
+        ///   Busca una cadena traducida similar a - Desactivar notificaciones de ejecutar como administrador.
         /// </summary>
         internal static string checkBoxDisableRunasAdmin {
             get {
@@ -232,7 +232,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Desinstalar OneDrive.
+        ///   Busca una cadena traducida similar a - Desinstalar OneDrive.
         /// </summary>
         internal static string checkBoxUnistallOneDrive {
             get {
@@ -241,7 +241,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Borrar caché DNS.
+        ///   Busca una cadena traducida similar a - Borrar caché DNS.
         /// </summary>
         internal static string checkCacheDNS {
             get {
@@ -250,7 +250,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Borrar caché.
+        ///   Busca una cadena traducida similar a - Borrar caché.
         /// </summary>
         internal static string checkClearCache {
             get {
@@ -259,7 +259,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Borrar registro de eventos.
+        ///   Busca una cadena traducida similar a - Borrar registro de eventos.
         /// </summary>
         internal static string checkClearEvLog {
             get {
@@ -268,7 +268,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Vaciar papelera de reciclaje.
+        ///   Busca una cadena traducida similar a - Vaciar papelera de reciclaje.
         /// </summary>
         internal static string checkClearRecyclebin {
             get {
@@ -277,7 +277,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Borrar archivos temporales.
+        ///   Busca una cadena traducida similar a - Borrar archivos temporales.
         /// </summary>
         internal static string checkDeleteTempFiles {
             get {
@@ -286,7 +286,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Borrar archivos temporales de actualizaciones en windows.
+        ///   Busca una cadena traducida similar a - Borrar archivos temporales de actualizaciones en windows.
         /// </summary>
         internal static string checkDelTempFilesUpdate {
             get {
@@ -295,7 +295,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Deshabilitar modo juego de windows.
+        ///   Busca una cadena traducida similar a - Deshabilitar modo juego de windows.
         /// </summary>
         internal static string checkDisableGameModeWin {
             get {
@@ -304,7 +304,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Deshabilitar notificaciones (Windows push).
+        ///   Busca una cadena traducida similar a - Deshabilitar notificaciones (Windows push).
         /// </summary>
         internal static string checkDisablePushN {
             get {
@@ -313,7 +313,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Deshabilitar Busqueda de Windows.
+        ///   Busca una cadena traducida similar a - Deshabilitar Busqueda de Windows.
         /// </summary>
         internal static string checkDisableSearch {
             get {
@@ -322,7 +322,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Deshabilitar Servicios Innecesarios.
+        ///   Busca una cadena traducida similar a - Deshabilitar Servicios Innecesarios.
         /// </summary>
         internal static string checkDisableServices {
             get {
@@ -331,7 +331,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Deshabilitar SysMain (servicio).
+        ///   Busca una cadena traducida similar a - Deshabilitar SysMain (servicio).
         /// </summary>
         internal static string checkDisableSysM {
             get {
@@ -340,7 +340,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Deshabilitar Actualizaciones de Windows.
+        ///   Busca una cadena traducida similar a - Deshabilitar Actualizaciones de Windows.
         /// </summary>
         internal static string checkDisableUpdates {
             get {
@@ -349,7 +349,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a -Plan de energia Maximo Rendimiento.
+        ///   Busca una cadena traducida similar a - Plan de energia Maximo Rendimiento.
         /// </summary>
         internal static string checkEnergyPlan {
             get {

@@ -148,73 +148,73 @@
     <value>Mostrar mi version de Windows</value>
   </data>
   <data name="checkBoxDelFastAccs" xml:space="preserve">
-    <value>-Eliminar acceso rapido </value>
+    <value>- Eliminar acceso rapido </value>
   </data>
   <data name="checkBoxDelImage" xml:space="preserve">
-    <value>-Eliminar carpeta Imagenes</value>
+    <value>- Eliminar carpeta Imagenes</value>
   </data>
   <data name="checkBoxDelMusic" xml:space="preserve">
-    <value>-Eliminar carpeta Musica</value>
+    <value>- Eliminar carpeta Musica</value>
   </data>
   <data name="checkBoxDelObjects" xml:space="preserve">
-    <value>-Eliminar carpeta Objetos3D</value>
+    <value>- Eliminar carpeta Objetos3D</value>
   </data>
   <data name="checkBoxDelVideo" xml:space="preserve">
-    <value>-Eliminar carpeta Videos</value>
+    <value>- Eliminar carpeta Videos</value>
   </data>
   <data name="checkBoxDisableDefender" xml:space="preserve">
-    <value>-Desactivar Windows Defeneder</value>
+    <value>- Desactivar Windows Defeneder</value>
   </data>
   <data name="checkBoxDisableFirewall" xml:space="preserve">
-    <value>-Desactivar Firewall</value>
+    <value>- Desactivar Firewall</value>
   </data>
   <data name="checkBoxDisableNotifications" xml:space="preserve">
-    <value>-Desactivar notificaciones de windows</value>
+    <value>- Desactivar notificaciones de windows</value>
   </data>
   <data name="checkBoxDisableRunasAdmin" xml:space="preserve">
-    <value>-Desactivar notificaciones de ejecutar como administrador</value>
+    <value>- Desactivar notificaciones de ejecutar como administrador</value>
   </data>
   <data name="checkBoxUnistallOneDrive" xml:space="preserve">
-    <value>-Desinstalar OneDrive</value>
+    <value>- Desinstalar OneDrive</value>
   </data>
   <data name="checkCacheDNS" xml:space="preserve">
-    <value>-Borrar caché DNS</value>
+    <value>- Borrar caché DNS</value>
   </data>
   <data name="checkClearCache" xml:space="preserve">
-    <value>-Borrar caché</value>
+    <value>- Borrar caché</value>
   </data>
   <data name="checkClearEvLog" xml:space="preserve">
-    <value>-Borrar registro de eventos</value>
+    <value>- Borrar registro de eventos</value>
   </data>
   <data name="checkClearRecyclebin" xml:space="preserve">
-    <value>-Vaciar papelera de reciclaje</value>
+    <value>- Vaciar papelera de reciclaje</value>
   </data>
   <data name="checkDeleteTempFiles" xml:space="preserve">
-    <value>-Borrar archivos temporales</value>
+    <value>- Borrar archivos temporales</value>
   </data>
   <data name="checkDelTempFilesUpdate" xml:space="preserve">
-    <value>-Borrar archivos temporales de actualizaciones en windows</value>
+    <value>- Borrar archivos temporales de actualizaciones en windows</value>
   </data>
   <data name="checkDisableGameModeWin" xml:space="preserve">
-    <value>-Deshabilitar modo juego de windows</value>
+    <value>- Deshabilitar modo juego de windows</value>
   </data>
   <data name="checkDisablePushN" xml:space="preserve">
-    <value>-Deshabilitar notificaciones (Windows push)</value>
+    <value>- Deshabilitar notificaciones (Windows push)</value>
   </data>
   <data name="checkDisableSearch" xml:space="preserve">
-    <value>-Deshabilitar Busqueda de Windows</value>
+    <value>- Deshabilitar Busqueda de Windows</value>
   </data>
   <data name="checkDisableServices" xml:space="preserve">
-    <value>-Deshabilitar Servicios Innecesarios</value>
+    <value>- Deshabilitar Servicios Innecesarios</value>
   </data>
   <data name="checkDisableSysM" xml:space="preserve">
-    <value>-Deshabilitar SysMain (servicio)</value>
+    <value>- Deshabilitar SysMain (servicio)</value>
   </data>
   <data name="checkDisableUpdates" xml:space="preserve">
-    <value>-Deshabilitar Actualizaciones de Windows</value>
+    <value>- Deshabilitar Actualizaciones de Windows</value>
   </data>
   <data name="checkEnergyPlan" xml:space="preserve">
-    <value>-Plan de energia Maximo Rendimiento</value>
+    <value>- Plan de energia Maximo Rendimiento</value>
   </data>
   <data name="label1" xml:space="preserve">
     <value>Opciones de Optimizacion</value>
