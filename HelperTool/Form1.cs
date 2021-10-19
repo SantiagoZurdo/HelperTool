@@ -12,6 +12,7 @@ namespace HelperToolRenovado
     {
         Navigation Navigate;
         Dictionary<string, string> diccionarioKeys;
+        DialogResult mensajeActivacion;
         public Form1()
         {
             InitializeComponent();
@@ -93,7 +94,7 @@ namespace HelperToolRenovado
                         windowsVersion = obj["Caption"].ToString();
                     }
                 }
-                DialogResult mensajeActivacion;
+                //DialogResult mensajeActivacion;
                 mensajeActivacion = MessageBox.Show("Are you sure you want to activate " + "(" + (windowsVersion) + ")", "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
                 if (mensajeActivacion == System.Windows.Forms.DialogResult.Yes)
                 {

@@ -421,7 +421,11 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Bienvenido a HelperTool.
+        ///   Busca una cadena traducida similar a Bienvenido a HelperTool
+        ///
+        ///
+        ///
+        ///         Disfrutalo =D.
         /// </summary>
         internal static string lblWelcome {
             get {

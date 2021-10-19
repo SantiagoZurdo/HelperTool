@@ -238,6 +238,10 @@
     <value>Desmarcar todo</value>
   </data>
   <data name="lblWelcome" xml:space="preserve">
-    <value>Bienvenido a HelperTool</value>
+    <value>Bienvenido a HelperTool
+
+
+
+         Disfrutalo =D</value>
   </data>
 </root>
