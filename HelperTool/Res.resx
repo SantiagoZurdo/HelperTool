@@ -250,11 +250,17 @@
   <data name="mensajeActivacionCorrecta" xml:space="preserve">
     <value>Su sistema operativo {{windowsVersion}} ha sido correctamente activado</value>
   </data>
+  <data name="mensajeCambiosAplicadosReiniciar" xml:space="preserve">
+    <value>Para ver los cambios aplicados, debe reiniciar el sistema. ¿Quieres hacerlo ahora?</value>
+  </data>
   <data name="mensajeDemostracion" xml:space="preserve">
     <value>Recuerde que esta funcion es solo una demostracion de como funcionaria, esto no activa realmente tu sistema operativo. Si deseas activar tu Sistema operativo compra una licencia oficial de Windows.</value>
   </data>
   <data name="mensajeDesactivacion" xml:space="preserve">
     <value>Esta seguro de que desea desactivar widows?</value>
+  </data>
+  <data name="mensajeDeseaReiniciar" xml:space="preserve">
+    <value>¿Desea reiniciar para aplicar los cambios?</value>
   </data>
   <data name="mensajeErrorVersion" xml:space="preserve">
     <value>Su version de windows no ha sido encontradada!!!!!
@@ -263,5 +269,14 @@ Windows 10 Pro &amp; Windows 11 Pro.
 Windows 10 Home &amp; Windows 11 Home.
 Windows 10 Enterprise &amp; Windows 11 Enterprise.
 Windows 10 Education &amp; Windows 11 Education.</value>
+  </data>
+  <data name="mensajeOptimizadoCorrectamente" xml:space="preserve">
+    <value>Windows ha sido correctamente Optimizado</value>
+  </data>
+  <data name="mensajeRollBackPregunta" xml:space="preserve">
+    <value>¿Está seguro de que desea revertir? Si lo hace, las opciones de optimización serán las mismas que antes.</value>
+  </data>
+  <data name="mensajeRollbackSuccefull" xml:space="preserve">
+    <value>El RollBack se ha realizado correctamente.</value>
   </data>
 </root>

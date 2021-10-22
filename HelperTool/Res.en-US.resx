@@ -250,11 +250,17 @@
   <data name="mensajeActivacionCorrecta" xml:space="preserve">
     <value>Your operating system : {{windowsVersion}} has been successfully activated</value>
   </data>
+  <data name="mensajeCambiosAplicadosReiniciar" xml:space="preserve">
+    <value>To see the applied changes you need to restart the system. Do you want to do it now?</value>
+  </data>
   <data name="mensajeDemostracion" xml:space="preserve">
     <value>Remember that this function is only a demonstration of how it will work, it does not actually activate your operating system. If you want to activate your operating system, buy an official Windows license.</value>
   </data>
   <data name="mensajeDesactivacion" xml:space="preserve">
     <value>Are you sure you want to deactivate windows?</value>
+  </data>
+  <data name="mensajeDeseaReiniciar" xml:space="preserve">
+    <value>Do you want to restart to apply the changes?</value>
   </data>
   <data name="mensajeErrorVersion" xml:space="preserve">
     <value>Your windows version has not been found!!!!!
@@ -263,5 +269,14 @@ Windows 10 Pro &amp; Windows 11 Pro.
 Windows 10 Home &amp; Windows 11 Home.
 Windows 10 Enterprise &amp; Windows 11 Enterprise.
 Windows 10 Education &amp; Windows 11 Education.</value>
+  </data>
+  <data name="mensajeOptimizadoCorrectamente" xml:space="preserve">
+    <value>Windows has ben optimized sucefull!!</value>
+  </data>
+  <data name="mensajeRollBackPregunta" xml:space="preserve">
+    <value>Are you sure you want to rollback? If you do, the optimization options will be as before</value>
+  </data>
+  <data name="mensajeRollbackSuccefull" xml:space="preserve">
+    <value>Rollback successful!!</value>
   </data>
 </root>

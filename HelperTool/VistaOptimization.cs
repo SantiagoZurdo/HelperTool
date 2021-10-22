@@ -15,6 +15,10 @@ namespace HelperToolRenovado
     public partial class VistaOptimization : UserControl, IVista
     {
         List<CheckBox> listacheckOptimizeOptions;
+        DialogResult mensajeOptimizadoCorrectamente;
+        DialogResult mensajeRollBackPregunta;
+        DialogResult mensajeRollbackSuccefull;
+        DialogResult mensajeDeseaReiniciar;
         public VistaOptimization()
         {
             InitializeComponent();
@@ -169,7 +173,8 @@ namespace HelperToolRenovado
 
                     RegistryKey key8 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\Netlogon", true);
                     key8.SetValue("Start", 4);
-                    MessageBox.Show("Windows has ben optimized sucefull!!", "Helper Tool message", MessageBoxButtons.OK);
+                    //mensaje optimizacion
+                    MessageBox.Show(Res.mensajeOptimizadoCorrectamente,"HelperTool Message.",MessageBoxButtons.OK);
                 }
                 if (checkClearRecyclebin.Checked)
                 {
@@ -180,9 +185,8 @@ namespace HelperToolRenovado
         }
         private void btnRollback2_Click(object sender, EventArgs e)
         {
-            DialogResult result1;
-            result1 = MessageBox.Show("Are you sure you want to rollback? If you do, the optimization options will be as before", "Windows Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if (result1 == System.Windows.Forms.DialogResult.Yes)
+            MessageBox.Show(Res.mensajeRollBackPregunta, "HelperTool Message.",MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (mensajeRollBackPregunta == System.Windows.Forms.DialogResult.Yes)
             {
                 RegistryKey key0 = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SCardSvr", true);
                 key0.SetValue("Start", 3);
@@ -208,10 +212,10 @@ namespace HelperToolRenovado
                 key12.SetValue("Start", 2);
                 RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\GameBar", true);
                 key.SetValue("AutoGameModeEnabled", "1");
-                MessageBox.Show("Rollback successful!!", "Windows message");
-                DialogResult resultado;
-                resultado = MessageBox.Show("Do you want to restart to apply the changes?", "Restart Now?", MessageBoxButtons.YesNo);
-                if (resultado == System.Windows.Forms.DialogResult.Yes)
+
+                MessageBox.Show(Res.mensajeRollbackSuccefull, "HelperTool Message.", MessageBoxButtons.YesNo);
+                MessageBox.Show(Res.mensajeDeseaReiniciar, "HelperTool Message.", MessageBoxButtons.YesNo);
+                if (mensajeDeseaReiniciar == System.Windows.Forms.DialogResult.Yes)
                 {
                     Process.Start("shutdown", "/r /t 0");
                 }

@@ -10,12 +10,13 @@ namespace HelperToolRenovado
     public partial class VistaAdvancedControls : UserControl, IVista
     {
         List<CheckBox> listacheckAdvanced;
-        DialogResult mensajeReiniciar;
+        DialogResult mensajeCambiosAplicadosReiniciar;
 
         public VistaAdvancedControls()
         {
             InitializeComponent();
             listacheckAdvanced = new List<CheckBox> { checkBoxDelMusic, checkBoxDelImage, checkBoxDelVideo, checkBoxDelObjects, checkBoxDelFastAccs,checkBoxUnistallOneDrive,checkBoxDisableFirewall,checkBoxDisableRunasAdmin, checkBoxDisableNotifications,checkBoxDisableDefender};
+
         }
         private bool ComprobarCheckboxs(List<CheckBox> listaAdvanced)
         {
@@ -118,9 +119,8 @@ namespace HelperToolRenovado
                 }
             }
             catch (Exception){}
-
-            mensajeReiniciar = MessageBox.Show("To see the applied changes you need to restart the system. Do you want to do it now?", "Helper Tool Message.", MessageBoxButtons.YesNo,MessageBoxIcon.Exclamation);
-            if (mensajeReiniciar == System.Windows.Forms.DialogResult.Yes)
+            MessageBox.Show(Res.mensajeCambiosAplicadosReiniciar,"HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            if (mensajeCambiosAplicadosReiniciar == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start("shutdown", "/r /t 0");
             }

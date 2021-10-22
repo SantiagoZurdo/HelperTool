@@ -452,6 +452,15 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Para ver los cambios aplicados, debe reiniciar el sistema. ¿Quieres hacerlo ahora?.
+        /// </summary>
+        internal static string mensajeCambiosAplicadosReiniciar {
+            get {
+                return ResourceManager.GetString("mensajeCambiosAplicadosReiniciar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Recuerde que esta funcion es solo una demostracion de como funcionaria, esto no activa realmente tu sistema operativo. Si deseas activar tu Sistema operativo compra una licencia oficial de Windows..
         /// </summary>
         internal static string mensajeDemostracion {
@@ -470,6 +479,15 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a ¿Desea reiniciar para aplicar los cambios?.
+        /// </summary>
+        internal static string mensajeDeseaReiniciar {
+            get {
+                return ResourceManager.GetString("mensajeDeseaReiniciar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Su version de windows no ha sido encontradada!!!!!
         ///Recuerde que este programa solo soporta licencias para:
         ///Windows 10 Pro &amp; Windows 11 Pro.
@@ -480,6 +498,33 @@ namespace HelperToolRenovado {
         internal static string mensajeErrorVersion {
             get {
                 return ResourceManager.GetString("mensajeErrorVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Windows ha sido correctamente Optimizado.
+        /// </summary>
+        internal static string mensajeOptimizadoCorrectamente {
+            get {
+                return ResourceManager.GetString("mensajeOptimizadoCorrectamente", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ¿Está seguro de que desea revertir? Si lo hace, las opciones de optimización serán las mismas que antes..
+        /// </summary>
+        internal static string mensajeRollBackPregunta {
+            get {
+                return ResourceManager.GetString("mensajeRollBackPregunta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El RollBack se ha realizado correctamente..
+        /// </summary>
+        internal static string mensajeRollbackSuccefull {
+            get {
+                return ResourceManager.GetString("mensajeRollbackSuccefull", resourceCulture);
             }
         }
     }
