@@ -13,6 +13,11 @@ namespace HelperToolRenovado
         Navigation Navigate;
         Dictionary<string, string> diccionarioKeys;
         DialogResult mensajeActivacion;
+        DialogResult mensajeActivacionCorrecta;
+        DialogResult mensajeDesactivacion;
+        DialogResult mensajeErrorVersion;
+        DialogResult mensajeDemostracion;
+
         public Form1()
         {
             InitializeComponent();
@@ -23,7 +28,6 @@ namespace HelperToolRenovado
             Navigate.AgregarVista("VistaAdvancedControls", new VistaAdvancedControls());
             Navigate.AgregarVista("VistaOptimization", new VistaOptimization());
             Navigate.Navegar("VistaInicio");
-
             diccionarioKeys = new Dictionary<string, string>()
             {
                 {"Microsoft Windows 10 Pro", "insert valid key of windows here :D"},
@@ -34,6 +38,22 @@ namespace HelperToolRenovado
                 {"Microsoft Windows 11 Home", "insert valid key of windows here :D"},
                 {"Microsoft Windows 11 Education", "insert valid key of windows here :D"}
             };
+        }
+        private string GetWindowsVersion()
+        {
+            string windowsVersion = "";
+            using (ManagementObjectSearcher buscador = new ManagementObjectSearcher("SELECT * FROM Win32_OperatingSystem"))
+            {
+                ManagementObjectCollection information = buscador.Get();
+                if (information != null)
+                {
+                    foreach (ManagementObject obj in information)
+                    {
+                        windowsVersion = obj["Caption"].ToString();
+                    }
+                }
+            }
+            return windowsVersion;
         }
         private void PersonalizeDesing()
         {
@@ -81,54 +101,27 @@ namespace HelperToolRenovado
         static extern uint SHEmptyRecycleBin(IntPtr hwnd, string pszRootPath, RecycleFlags dwFlags);
         private async void btnActivateWindows_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Remember that this function is only a demonstration of how it works, it will not really activate your operating system. If you want to do it please buy an official license.", "HelperTool Message.", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             Navigate.Navegar("VistaInicio");
-            string windowsVersion = "";
-            using (ManagementObjectSearcher buscador = new ManagementObjectSearcher("SELECT * FROM Win32_OperatingSystem"))
+            MessageBox.Show(Res.mensajeDemostracion, "HelperTool Message.", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show(Res.mensajeActivacion + "(" + (GetWindowsVersion()) + ")", "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            if (mensajeActivacion == System.Windows.Forms.DialogResult.Yes)
             {
-                ManagementObjectCollection information = buscador.Get();
-                if (information != null)
+                Navigate.Navegar("VistaCarga");
+                if (diccionarioKeys.ContainsKey(GetWindowsVersion()))
                 {
-                    foreach (ManagementObject obj in information)
-                    {
-                        windowsVersion = obj["Caption"].ToString();
-                    }
+                    string WindowsKey = diccionarioKeys[GetWindowsVersion()];
+                    await ActivateWindowsComand(WindowsKey);
+                    Navigate.Navegar("VistaInicio");
+                    MessageBox.Show(Res.mensajeActivacionCorrecta.Replace("{{windowsVersion}}", GetWindowsVersion()), "HelperTool Message.", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                //DialogResult mensajeActivacion;
-                mensajeActivacion = MessageBox.Show("Are you sure you want to activate " + "(" + (windowsVersion) + ")", "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-                if (mensajeActivacion == System.Windows.Forms.DialogResult.Yes)
-                {
-                    Navigate.Navegar("VistaCarga");
-                    if (diccionarioKeys.ContainsKey(windowsVersion))
-                    {
-                        string WindowsKey = diccionarioKeys[windowsVersion];
-                        await ActivateWindowsComand(WindowsKey);
-                        Navigate.Navegar("VistaInicio");
-                        MessageBox.Show("Your operating system :" + (windowsVersion) + "has been successfully activated", "HelperTool message.", MessageBoxButtons.OK);
-                    }
-                    else
-                    {
-                        MessageBox.Show("Your windows version has not been found!!!!!"
-                       + "\n\n"
-                       + "Remember that this program only supports licenses of:"
-                       + "\n"
-                       + "Windows 10 Pro & Windows 11 Pro."
-                       + "\n"
-                       + "Windows 10 Home & Windows 11 Home."
-                       + "\n"
-                       + "Windows 10 Enterprise & Windows 11 Enterprise"
-                       + "\n"
-                       + "Windows 10 Education & Windows 11 Education.", "HelperTool Error!.", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                }
+                else{MessageBox.Show(Res.mensajeErrorVersion, "HelperTool Message.", MessageBoxButtons.OK, MessageBoxIcon.Warning);}
             }
         }
         private void btnDeactivateWindows_Click(object sender, EventArgs e)
         {
             Navigate.Navegar("VistaInicio");
-            DialogResult result2;
-            result2 = MessageBox.Show("Are you sure you want to deactivate windows?", "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if (result2 == System.Windows.Forms.DialogResult.Yes)
+            MessageBox.Show(Res.mensajeDesactivacion, "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (mensajeDesactivacion == System.Windows.Forms.DialogResult.Yes)
             {
                 CommandsCMD.RunCommand("slmgr /upk");
             }
@@ -174,7 +167,7 @@ namespace HelperToolRenovado
         }
         private void GetText()
         {
-            //Menu de botones
+            //Menu of buttons
             btnActivationSettings.Text = Res.btnActivationSettings;
             btnActivateWindows.Text = Res.btnActivateWindows;
             btnDeactivateWindows.Text = Res.btnDeactivateWindows;
@@ -182,15 +175,12 @@ namespace HelperToolRenovado
             btnOptimizeSettings.Text = Res.btnOptimizeSettings;
             btnOptimizeMenu.Text = Res.btnOptimizeMenu;
             btnAdvancedMenuW.Text = Res.btnAdvancedMenuW;
-            //fin menu botones
-
-            //Traducir una vista Ej
+            //Translate view
             Navigate.GetVista("VistaCarga").Traducir();
             Navigate.GetVista("VistaInicio").Traducir();
             Navigate.GetVista("VistaOptimization").Traducir();
             Navigate.GetVista("VistaAdvancedControls").Traducir();
-
-
         }
     }
 }
+            

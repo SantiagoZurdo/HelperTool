@@ -432,5 +432,55 @@ namespace HelperToolRenovado {
                 return ResourceManager.GetString("lblWelcome", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Esta seguro de que desea activar windows?.
+        /// </summary>
+        internal static string mensajeActivacion {
+            get {
+                return ResourceManager.GetString("mensajeActivacion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Su sistema operativo {{windowsVersion}} ha sido correctamente activado.
+        /// </summary>
+        internal static string mensajeActivacionCorrecta {
+            get {
+                return ResourceManager.GetString("mensajeActivacionCorrecta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Recuerde que esta funcion es solo una demostracion de como funcionaria, esto no activa realmente tu sistema operativo. Si deseas activar tu Sistema operativo compra una licencia oficial de Windows..
+        /// </summary>
+        internal static string mensajeDemostracion {
+            get {
+                return ResourceManager.GetString("mensajeDemostracion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Esta seguro de que desea desactivar widows?.
+        /// </summary>
+        internal static string mensajeDesactivacion {
+            get {
+                return ResourceManager.GetString("mensajeDesactivacion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Su version de windows no ha sido encontradada!!!!!
+        ///Recuerde que este programa solo soporta licencias para:
+        ///Windows 10 Pro &amp; Windows 11 Pro.
+        ///Windows 10 Home &amp; Windows 11 Home.
+        ///Windows 10 Enterprise &amp; Windows 11 Enterprise.
+        ///Windows 10 Education &amp; Windows 11 Education..
+        /// </summary>
+        internal static string mensajeErrorVersion {
+            get {
+                return ResourceManager.GetString("mensajeErrorVersion", resourceCulture);
+            }
+        }
     }
 }

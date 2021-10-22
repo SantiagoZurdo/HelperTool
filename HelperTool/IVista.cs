@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelperToolRenovado {
-    interface IVista {
+namespace HelperToolRenovado
+{
+    interface IVista
+    {
         void Traducir();
     }
 }

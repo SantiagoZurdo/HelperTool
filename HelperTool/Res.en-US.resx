@@ -244,4 +244,24 @@
 
          ENJOY IT &lt;3</value>
   </data>
+  <data name="mensajeActivacion" xml:space="preserve">
+    <value>Are you sure you want to activate</value>
+  </data>
+  <data name="mensajeActivacionCorrecta" xml:space="preserve">
+    <value>Your operating system : {{windowsVersion}} has been successfully activated</value>
+  </data>
+  <data name="mensajeDemostracion" xml:space="preserve">
+    <value>Remember that this function is only a demonstration of how it will work, it does not actually activate your operating system. If you want to activate your operating system, buy an official Windows license.</value>
+  </data>
+  <data name="mensajeDesactivacion" xml:space="preserve">
+    <value>Are you sure you want to deactivate windows?</value>
+  </data>
+  <data name="mensajeErrorVersion" xml:space="preserve">
+    <value>Your windows version has not been found!!!!!
+Remember that this program only supports licenses of :
+Windows 10 Pro &amp; Windows 11 Pro.
+Windows 10 Home &amp; Windows 11 Home.
+Windows 10 Enterprise &amp; Windows 11 Enterprise.
+Windows 10 Education &amp; Windows 11 Education.</value>
+  </data>
 </root>
