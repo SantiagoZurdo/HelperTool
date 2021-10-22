@@ -72,17 +72,17 @@ namespace HelperToolRenovado
             this.MenuSelection.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuSelection.Location = new System.Drawing.Point(0, 0);
             this.MenuSelection.Name = "MenuSelection";
-            this.MenuSelection.Size = new System.Drawing.Size(335, 701);
+            this.MenuSelection.Size = new System.Drawing.Size(335, 657);
             this.MenuSelection.TabIndex = 3;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox1.Image = global::HelperToolRenovado.Properties.Resources.settings1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 582);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 542);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(335, 30);
+            this.pictureBox1.Size = new System.Drawing.Size(335, 26);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -96,7 +96,7 @@ namespace HelperToolRenovado
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(0, 612);
+            this.button1.Location = new System.Drawing.Point(0, 568);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(335, 13);
@@ -110,7 +110,7 @@ namespace HelperToolRenovado
             this.panelLenguagesAnasheiiii.Controls.Add(this.btnEglish);
             this.panelLenguagesAnasheiiii.Controls.Add(this.btnSpanish);
             this.panelLenguagesAnasheiiii.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelLenguagesAnasheiiii.Location = new System.Drawing.Point(0, 625);
+            this.panelLenguagesAnasheiiii.Location = new System.Drawing.Point(0, 581);
             this.panelLenguagesAnasheiiii.Name = "panelLenguagesAnasheiiii";
             this.panelLenguagesAnasheiiii.Size = new System.Drawing.Size(335, 76);
             this.panelLenguagesAnasheiiii.TabIndex = 41;
@@ -147,6 +147,7 @@ namespace HelperToolRenovado
             this.btnSpanish.Text = "                     ES";
             this.btnSpanish.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSpanish.UseVisualStyleBackColor = true;
+            this.btnSpanish.Click += new System.EventHandler(this.btnSpanish_Click);
             // 
             // panelOptimizeSettings
             // 
@@ -332,7 +333,7 @@ namespace HelperToolRenovado
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.Location = new System.Drawing.Point(341, 7);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(887, 682);
+            this.panel1.Size = new System.Drawing.Size(894, 643);
             this.panel1.TabIndex = 40;
             // 
             // Form1
@@ -340,7 +341,7 @@ namespace HelperToolRenovado
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(1240, 701);
+            this.ClientSize = new System.Drawing.Size(1240, 657);
             this.Controls.Add(this.MenuSelection);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
