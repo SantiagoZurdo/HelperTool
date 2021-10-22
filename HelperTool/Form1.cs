@@ -20,6 +20,7 @@ namespace HelperToolRenovado
 
         public Form1()
         {
+            
             InitializeComponent();
             PersonalizeDesing();
             Navigate = new Navigation(panel1);
@@ -70,6 +71,10 @@ namespace HelperToolRenovado
             if (panelOptimizeSettings.Visible == true)
             {
                 panelOptimizeSettings.Visible = false;
+            }
+            if (panelLenguagesAnasheiiii.Visible == true)
+            {
+                panelLenguagesAnasheiiii.Visible = false;
             }
         }
         private void showSubMenu(Panel subMenu)
@@ -152,6 +157,7 @@ namespace HelperToolRenovado
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             showSubMenu(panelLenguagesAnasheiiii);
+                
         }
         private void btnSpanish_Click(object sender, EventArgs e)
         {

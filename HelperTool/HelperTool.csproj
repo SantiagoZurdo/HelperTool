@@ -192,6 +192,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo_ico.ico" />
+    <None Include="Resources\a.jpg" />
     <None Include="recursos\settings.png" />
     <None Include="Resources\Image1.bmp" />
     <None Include="Resources\settings.bmp" />

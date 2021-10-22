@@ -31,6 +31,11 @@ namespace HelperToolRenovado
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.MenuSelection = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panelLenguagesAnasheiiii = new System.Windows.Forms.Panel();
+            this.btnEglish = new System.Windows.Forms.Button();
+            this.btnSpanish = new System.Windows.Forms.Button();
             this.panelOptimizeSettings = new System.Windows.Forms.Panel();
             this.btnAdvancedMenuW = new System.Windows.Forms.Button();
             this.btnOptimizeMenu = new System.Windows.Forms.Button();
@@ -43,23 +48,22 @@ namespace HelperToolRenovado
             this.panelLogo = new System.Windows.Forms.Panel();
             this.Logo = new System.Windows.Forms.PictureBox();
             this.lblNameProgram = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panelLenguagesAnasheiiii = new System.Windows.Forms.Panel();
-            this.btnEglish = new System.Windows.Forms.Button();
-            this.btnSpanish = new System.Windows.Forms.Button();
             this.MenuSelection.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelLenguagesAnasheiiii.SuspendLayout();
             this.panelOptimizeSettings.SuspendLayout();
             this.panelSubmenuActivation.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelLenguagesAnasheiiii.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuSelection
             // 
             this.MenuSelection.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(22)))), ((int)(((byte)(30)))));
+            this.MenuSelection.Controls.Add(this.pictureBox1);
+            this.MenuSelection.Controls.Add(this.button1);
+            this.MenuSelection.Controls.Add(this.panelLenguagesAnasheiiii);
             this.MenuSelection.Controls.Add(this.panelOptimizeSettings);
             this.MenuSelection.Controls.Add(this.btnOptimizeSettings);
             this.MenuSelection.Controls.Add(this.panelSubmenuActivation);
@@ -68,8 +72,81 @@ namespace HelperToolRenovado
             this.MenuSelection.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuSelection.Location = new System.Drawing.Point(0, 0);
             this.MenuSelection.Name = "MenuSelection";
-            this.MenuSelection.Size = new System.Drawing.Size(335, 659);
+            this.MenuSelection.Size = new System.Drawing.Size(335, 701);
             this.MenuSelection.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pictureBox1.Image = global::HelperToolRenovado.Properties.Resources.settings1;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 582);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(335, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button1.Enabled = false;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 612);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(335, 13);
+            this.button1.TabIndex = 43;
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // panelLenguagesAnasheiiii
+            // 
+            this.panelLenguagesAnasheiiii.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.panelLenguagesAnasheiiii.Controls.Add(this.btnEglish);
+            this.panelLenguagesAnasheiiii.Controls.Add(this.btnSpanish);
+            this.panelLenguagesAnasheiiii.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelLenguagesAnasheiiii.Location = new System.Drawing.Point(0, 625);
+            this.panelLenguagesAnasheiiii.Name = "panelLenguagesAnasheiiii";
+            this.panelLenguagesAnasheiiii.Size = new System.Drawing.Size(335, 76);
+            this.panelLenguagesAnasheiiii.TabIndex = 41;
+            // 
+            // btnEglish
+            // 
+            this.btnEglish.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEglish.FlatAppearance.BorderSize = 0;
+            this.btnEglish.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEglish.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEglish.ForeColor = System.Drawing.Color.White;
+            this.btnEglish.Location = new System.Drawing.Point(0, 29);
+            this.btnEglish.Name = "btnEglish";
+            this.btnEglish.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnEglish.Size = new System.Drawing.Size(335, 35);
+            this.btnEglish.TabIndex = 0;
+            this.btnEglish.Text = "                    ENG";
+            this.btnEglish.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEglish.UseVisualStyleBackColor = true;
+            this.btnEglish.Click += new System.EventHandler(this.btnEnglish_Click);
+            // 
+            // btnSpanish
+            // 
+            this.btnSpanish.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSpanish.FlatAppearance.BorderSize = 0;
+            this.btnSpanish.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSpanish.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpanish.ForeColor = System.Drawing.Color.White;
+            this.btnSpanish.Location = new System.Drawing.Point(0, 0);
+            this.btnSpanish.Name = "btnSpanish";
+            this.btnSpanish.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnSpanish.Size = new System.Drawing.Size(335, 29);
+            this.btnSpanish.TabIndex = 42;
+            this.btnSpanish.Text = "                     ES";
+            this.btnSpanish.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSpanish.UseVisualStyleBackColor = true;
             // 
             // panelOptimizeSettings
             // 
@@ -250,80 +327,22 @@ namespace HelperToolRenovado
             this.lblNameProgram.TabIndex = 16;
             this.lblNameProgram.Text = "HelperTool";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1320, 8);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(43, 37);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Location = new System.Drawing.Point(339, 3);
+            this.panel1.Location = new System.Drawing.Point(341, 7);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(901, 648);
+            this.panel1.Size = new System.Drawing.Size(887, 682);
             this.panel1.TabIndex = 40;
-            // 
-            // panelLenguagesAnasheiiii
-            // 
-            this.panelLenguagesAnasheiiii.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.panelLenguagesAnasheiiii.Controls.Add(this.btnEglish);
-            this.panelLenguagesAnasheiiii.Controls.Add(this.btnSpanish);
-            this.panelLenguagesAnasheiiii.Location = new System.Drawing.Point(1249, 51);
-            this.panelLenguagesAnasheiiii.Name = "panelLenguagesAnasheiiii";
-            this.panelLenguagesAnasheiiii.Size = new System.Drawing.Size(114, 83);
-            this.panelLenguagesAnasheiiii.TabIndex = 41;
-            // 
-            // btnEglish
-            // 
-            this.btnEglish.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEglish.FlatAppearance.BorderSize = 0;
-            this.btnEglish.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEglish.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEglish.ForeColor = System.Drawing.Color.White;
-            this.btnEglish.Location = new System.Drawing.Point(0, 35);
-            this.btnEglish.Name = "btnEglish";
-            this.btnEglish.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnEglish.Size = new System.Drawing.Size(114, 34);
-            this.btnEglish.TabIndex = 1;
-            this.btnEglish.Text = "ENG";
-            this.btnEglish.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEglish.UseVisualStyleBackColor = true;
-            this.btnEglish.Click += new System.EventHandler(this.btnEnglish_Click);
-            // 
-            // btnSpanish
-            // 
-            this.btnSpanish.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSpanish.FlatAppearance.BorderSize = 0;
-            this.btnSpanish.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSpanish.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSpanish.ForeColor = System.Drawing.Color.White;
-            this.btnSpanish.Location = new System.Drawing.Point(0, 0);
-            this.btnSpanish.Name = "btnSpanish";
-            this.btnSpanish.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnSpanish.Size = new System.Drawing.Size(114, 35);
-            this.btnSpanish.TabIndex = 0;
-            this.btnSpanish.Text = "ES";
-            this.btnSpanish.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSpanish.UseVisualStyleBackColor = true;
-            this.btnSpanish.Click += new System.EventHandler(this.btnSpanish_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(1368, 659);
-            this.Controls.Add(this.panelLenguagesAnasheiiii);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(1240, 701);
             this.Controls.Add(this.MenuSelection);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -331,13 +350,13 @@ namespace HelperToolRenovado
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HelperTool";
             this.MenuSelection.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelLenguagesAnasheiiii.ResumeLayout(false);
             this.panelOptimizeSettings.ResumeLayout(false);
             this.panelSubmenuActivation.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelLenguagesAnasheiiii.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -357,11 +376,12 @@ namespace HelperToolRenovado
         private System.Windows.Forms.Button btnAdvancedMenuW;
         private System.Windows.Forms.Button btnOptimizeMenu;
         private System.Windows.Forms.Button btnOptimizeSettings;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelLenguagesAnasheiiii;
         private System.Windows.Forms.Button btnEglish;
-        private System.Windows.Forms.Button btnSpanish;
         public System.Windows.Forms.Button btnActivationSettings;
+        private System.Windows.Forms.Button btnSpanish;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -38,7 +38,7 @@ namespace HelperToolRenovado
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.Font = new System.Drawing.Font("Arial Black", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.White;
-            this.lblWelcome.Location = new System.Drawing.Point(151, 144);
+            this.lblWelcome.Location = new System.Drawing.Point(137, 142);
             this.lblWelcome.Name = "lblWelcome";
             this.lblWelcome.Size = new System.Drawing.Size(572, 300);
             this.lblWelcome.TabIndex = 5;
