@@ -15,7 +15,6 @@ namespace HelperToolRenovado
 
         public Form1()
         {
-            
             InitializeComponent();
             PersonalizeDesing();
             Navigate = new Navigation(panel1);
@@ -56,7 +55,7 @@ namespace HelperToolRenovado
         {
             panelSubmenuActivation.Visible = false;
             panelOptimizeSettings.Visible = false;
-            panelLenguagesAnasheiiii.Visible = false;
+            panelLenguages.Visible = false;
         }
         private void hideSubmenu()
         {
@@ -68,9 +67,9 @@ namespace HelperToolRenovado
             {
                 panelOptimizeSettings.Visible = false;
             }
-            if (panelLenguagesAnasheiiii.Visible == true)
+            if (panelLenguages.Visible == true)
             {
-                panelLenguagesAnasheiiii.Visible = false;
+                panelLenguages.Visible = false;
             }
         }
         private void showSubMenu(Panel subMenu)
@@ -152,18 +151,18 @@ namespace HelperToolRenovado
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelLenguagesAnasheiiii);
+            showSubMenu(panelLenguages);
                 
         }
         private void btnSpanish_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelLenguagesAnasheiiii);
+            showSubMenu(panelLenguages);
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es");
             GetText();
         }
         private void btnEnglish_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelLenguagesAnasheiiii);
+            showSubMenu(panelLenguages);
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
             GetText();
         }

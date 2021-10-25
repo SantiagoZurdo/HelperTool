@@ -33,7 +33,7 @@ namespace HelperToolRenovado
             this.MenuSelection = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.panelLenguagesAnasheiiii = new System.Windows.Forms.Panel();
+            this.panelLenguages = new System.Windows.Forms.Panel();
             this.btnEglish = new System.Windows.Forms.Button();
             this.btnSpanish = new System.Windows.Forms.Button();
             this.panelOptimizeSettings = new System.Windows.Forms.Panel();
@@ -51,7 +51,7 @@ namespace HelperToolRenovado
             this.panel1 = new System.Windows.Forms.Panel();
             this.MenuSelection.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelLenguagesAnasheiiii.SuspendLayout();
+            this.panelLenguages.SuspendLayout();
             this.panelOptimizeSettings.SuspendLayout();
             this.panelSubmenuActivation.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -63,7 +63,7 @@ namespace HelperToolRenovado
             this.MenuSelection.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(22)))), ((int)(((byte)(30)))));
             this.MenuSelection.Controls.Add(this.pictureBox1);
             this.MenuSelection.Controls.Add(this.button1);
-            this.MenuSelection.Controls.Add(this.panelLenguagesAnasheiiii);
+            this.MenuSelection.Controls.Add(this.panelLenguages);
             this.MenuSelection.Controls.Add(this.panelOptimizeSettings);
             this.MenuSelection.Controls.Add(this.btnOptimizeSettings);
             this.MenuSelection.Controls.Add(this.panelSubmenuActivation);
@@ -104,16 +104,16 @@ namespace HelperToolRenovado
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // panelLenguagesAnasheiiii
+            // panelLenguages
             // 
-            this.panelLenguagesAnasheiiii.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.panelLenguagesAnasheiiii.Controls.Add(this.btnEglish);
-            this.panelLenguagesAnasheiiii.Controls.Add(this.btnSpanish);
-            this.panelLenguagesAnasheiiii.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelLenguagesAnasheiiii.Location = new System.Drawing.Point(0, 581);
-            this.panelLenguagesAnasheiiii.Name = "panelLenguagesAnasheiiii";
-            this.panelLenguagesAnasheiiii.Size = new System.Drawing.Size(335, 76);
-            this.panelLenguagesAnasheiiii.TabIndex = 41;
+            this.panelLenguages.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.panelLenguages.Controls.Add(this.btnEglish);
+            this.panelLenguages.Controls.Add(this.btnSpanish);
+            this.panelLenguages.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelLenguages.Location = new System.Drawing.Point(0, 581);
+            this.panelLenguages.Name = "panelLenguages";
+            this.panelLenguages.Size = new System.Drawing.Size(335, 76);
+            this.panelLenguages.TabIndex = 41;
             // 
             // btnEglish
             // 
@@ -352,7 +352,7 @@ namespace HelperToolRenovado
             this.Text = "HelperTool";
             this.MenuSelection.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelLenguagesAnasheiiii.ResumeLayout(false);
+            this.panelLenguages.ResumeLayout(false);
             this.panelOptimizeSettings.ResumeLayout(false);
             this.panelSubmenuActivation.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
@@ -377,7 +377,7 @@ namespace HelperToolRenovado
         private System.Windows.Forms.Button btnAdvancedMenuW;
         private System.Windows.Forms.Button btnOptimizeMenu;
         private System.Windows.Forms.Button btnOptimizeSettings;
-        private System.Windows.Forms.Panel panelLenguagesAnasheiiii;
+        private System.Windows.Forms.Panel panelLenguages;
         private System.Windows.Forms.Button btnEglish;
         public System.Windows.Forms.Button btnActivationSettings;
         private System.Windows.Forms.Button btnSpanish;
