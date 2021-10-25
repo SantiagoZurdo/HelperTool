@@ -10,8 +10,6 @@ namespace HelperToolRenovado
     public partial class VistaAdvancedControls : UserControl, IVista
     {
         List<CheckBox> listacheckAdvanced;
-        DialogResult mensajeCambiosAplicadosReiniciar;
-
         public VistaAdvancedControls()
         {
             InitializeComponent();
@@ -35,7 +33,7 @@ namespace HelperToolRenovado
             btnGoAdvancedOptions.Enabled = checkbox;
             if (checkbox)
             {
-                btnGoAdvancedOptions.BackColor = ColorTranslator.FromHtml("#0078d7");
+                btnGoAdvancedOptions.BackColor = ColorTranslator.FromHtml("#005FB8");
             }
             else
             {
@@ -119,7 +117,7 @@ namespace HelperToolRenovado
                 }
             }
             catch (Exception){}
-            MessageBox.Show(Res.mensajeCambiosAplicadosReiniciar,"HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            DialogResult mensajeCambiosAplicadosReiniciar = MessageBox.Show(Res.mensajeCambiosAplicadosReiniciar,"HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
             if (mensajeCambiosAplicadosReiniciar == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start("shutdown", "/r /t 0");

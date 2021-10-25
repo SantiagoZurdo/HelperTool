@@ -220,14 +220,14 @@ namespace HelperToolRenovado
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(320, 12);
+            this.label1.Location = new System.Drawing.Point(0, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 33);
+            this.label1.Size = new System.Drawing.Size(904, 39);
             this.label1.TabIndex = 39;
             this.label1.Text = "Optimize Options";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // checkClearRecyclebin
             // 
@@ -264,8 +264,8 @@ namespace HelperToolRenovado
             this.rjToggleButton1.OffBackColor1 = System.Drawing.Color.Gray;
             this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
             this.rjToggleButton1.OffToggleColor1 = System.Drawing.Color.Gainsboro;
-            this.rjToggleButton1.OnBackColor = System.Drawing.SystemColors.Highlight;
-            this.rjToggleButton1.OnBackColor1 = System.Drawing.SystemColors.Highlight;
+            this.rjToggleButton1.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(95)))), ((int)(((byte)(184)))));
+            this.rjToggleButton1.OnBackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(95)))), ((int)(((byte)(184)))));
             this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
             this.rjToggleButton1.OnToggleColor1 = System.Drawing.Color.WhiteSmoke;
             this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);

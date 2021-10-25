@@ -61,7 +61,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Activar Windows.
+        ///   Busca una cadena traducida similar a Activate Windows.
         /// </summary>
         internal static string btnActivateWindows {
             get {
@@ -70,7 +70,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Herramientas de Activacion.
+        ///   Busca una cadena traducida similar a Activation Settings.
         /// </summary>
         internal static string btnActivationSettings {
             get {
@@ -79,7 +79,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Menu de Opciones Avanzadas.
+        ///   Busca una cadena traducida similar a Advanced Menu.
         /// </summary>
         internal static string btnAdvancedMenuW {
             get {
@@ -88,7 +88,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Desactivar Windows.
+        ///   Busca una cadena traducida similar a Deactivate Windows.
         /// </summary>
         internal static string btnDeactivateWindows {
             get {
@@ -97,7 +97,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Optimizar Ahora.
+        ///   Busca una cadena traducida similar a Optimize Now.
         /// </summary>
         internal static string btnGoAdvancedOptions {
             get {
@@ -106,7 +106,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Menu de Optimizacion.
+        ///   Busca una cadena traducida similar a Optimize Menu.
         /// </summary>
         internal static string btnOptimizeMenu {
             get {
@@ -115,7 +115,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Herramientas de Optimizacion.
+        ///   Busca una cadena traducida similar a Optimize Settings.
         /// </summary>
         internal static string btnOptimizeSettings {
             get {
@@ -124,7 +124,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Optimizar Ahora.
+        ///   Busca una cadena traducida similar a Optimize Now.
         /// </summary>
         internal static string btnOptmizeNow {
             get {
@@ -133,7 +133,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Deshcer todo.
+        ///   Busca una cadena traducida similar a Roll Back.
         /// </summary>
         internal static string btnRollback2 {
             get {
@@ -142,7 +142,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Mostrar mi version de Windows.
+        ///   Busca una cadena traducida similar a Show Windows Version.
         /// </summary>
         internal static string btnShowWversion {
             get {
@@ -151,7 +151,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Eliminar acceso rapido .
+        ///   Busca una cadena traducida similar a - Delete fast acces folder.
         /// </summary>
         internal static string checkBoxDelFastAccs {
             get {
@@ -160,7 +160,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Eliminar carpeta Imagenes.
+        ///   Busca una cadena traducida similar a - Delete image folder.
         /// </summary>
         internal static string checkBoxDelImage {
             get {
@@ -169,7 +169,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Eliminar carpeta Musica.
+        ///   Busca una cadena traducida similar a - Delete music folder.
         /// </summary>
         internal static string checkBoxDelMusic {
             get {
@@ -178,7 +178,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Eliminar carpeta Objetos3D.
+        ///   Busca una cadena traducida similar a - Delete objects3D folder.
         /// </summary>
         internal static string checkBoxDelObjects {
             get {
@@ -187,7 +187,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Eliminar carpeta Videos.
+        ///   Busca una cadena traducida similar a - Delete video folder.
         /// </summary>
         internal static string checkBoxDelVideo {
             get {
@@ -196,7 +196,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Desactivar Windows Defeneder.
+        ///   Busca una cadena traducida similar a - Disable Windows Defender.
         /// </summary>
         internal static string checkBoxDisableDefender {
             get {
@@ -205,7 +205,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Desactivar Firewall.
+        ///   Busca una cadena traducida similar a - Disable Firewall.
         /// </summary>
         internal static string checkBoxDisableFirewall {
             get {
@@ -214,7 +214,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Desactivar notificaciones de windows.
+        ///   Busca una cadena traducida similar a - Disable all Windows notifications.
         /// </summary>
         internal static string checkBoxDisableNotifications {
             get {
@@ -223,7 +223,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Desactivar notificaciones de ejecutar como administrador.
+        ///   Busca una cadena traducida similar a - Disable run as administrator messages.
         /// </summary>
         internal static string checkBoxDisableRunasAdmin {
             get {
@@ -232,7 +232,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Desinstalar OneDrive.
+        ///   Busca una cadena traducida similar a - Unistall OneDrive.
         /// </summary>
         internal static string checkBoxUnistallOneDrive {
             get {
@@ -241,7 +241,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Borrar caché DNS.
+        ///   Busca una cadena traducida similar a - Clear DNS cache.
         /// </summary>
         internal static string checkCacheDNS {
             get {
@@ -250,7 +250,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Borrar caché.
+        ///   Busca una cadena traducida similar a - Clear cache.
         /// </summary>
         internal static string checkClearCache {
             get {
@@ -259,7 +259,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Borrar registro de eventos.
+        ///   Busca una cadena traducida similar a - Clear event log.
         /// </summary>
         internal static string checkClearEvLog {
             get {
@@ -268,7 +268,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Vaciar papelera de reciclaje.
+        ///   Busca una cadena traducida similar a - Clear Recycle bin.
         /// </summary>
         internal static string checkClearRecyclebin {
             get {
@@ -277,7 +277,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Borrar archivos temporales.
+        ///   Busca una cadena traducida similar a - Delete temporary files.
         /// </summary>
         internal static string checkDeleteTempFiles {
             get {
@@ -286,7 +286,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Borrar archivos temporales de actualizaciones en windows.
+        ///   Busca una cadena traducida similar a - Delete temporary files from windows updates.
         /// </summary>
         internal static string checkDelTempFilesUpdate {
             get {
@@ -295,7 +295,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Deshabilitar modo juego de windows.
+        ///   Busca una cadena traducida similar a - Disable game Mode.
         /// </summary>
         internal static string checkDisableGameModeWin {
             get {
@@ -304,7 +304,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Deshabilitar notificaciones (Windows push).
+        ///   Busca una cadena traducida similar a - Disable windows Push notification service.
         /// </summary>
         internal static string checkDisablePushN {
             get {
@@ -313,7 +313,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Deshabilitar Busqueda de Windows.
+        ///   Busca una cadena traducida similar a - Disable windows search.
         /// </summary>
         internal static string checkDisableSearch {
             get {
@@ -322,7 +322,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Deshabilitar Servicios Innecesarios.
+        ///   Busca una cadena traducida similar a - Disable unnecessary services.
         /// </summary>
         internal static string checkDisableServices {
             get {
@@ -331,7 +331,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Deshabilitar SysMain (servicio).
+        ///   Busca una cadena traducida similar a - Disable Sysmain.
         /// </summary>
         internal static string checkDisableSysM {
             get {
@@ -340,7 +340,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Deshabilitar Actualizaciones de Windows.
+        ///   Busca una cadena traducida similar a - Disable windows update.
         /// </summary>
         internal static string checkDisableUpdates {
             get {
@@ -349,7 +349,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a - Plan de energia Maximo Rendimiento.
+        ///   Busca una cadena traducida similar a - Maximum performance energy plan.
         /// </summary>
         internal static string checkEnergyPlan {
             get {
@@ -358,7 +358,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Opciones de Optimizacion.
+        ///   Busca una cadena traducida similar a Optimize Options.
         /// </summary>
         internal static string label1 {
             get {
@@ -367,7 +367,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Opciones Avanzadas.
+        ///   Busca una cadena traducida similar a Advanced Options.
         /// </summary>
         internal static string label2 {
             get {
@@ -376,7 +376,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Marcar todo.
+        ///   Busca una cadena traducida similar a Check All.
         /// </summary>
         internal static string lblCheckAll {
             get {
@@ -385,7 +385,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Marcar todo.
+        ///   Busca una cadena traducida similar a Check All.
         /// </summary>
         internal static string lblCheckAll2 {
             get {
@@ -394,7 +394,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Esto tomara solo un par de segundos ....
+        ///   Busca una cadena traducida similar a Please wait this will take a few minutes ....
         /// </summary>
         internal static string lblPleaseWait {
             get {
@@ -403,7 +403,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Desmarcar todo.
+        ///   Busca una cadena traducida similar a UnCheck All.
         /// </summary>
         internal static string lblUncheckAll {
             get {
@@ -412,7 +412,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Desmarcar todo.
+        ///   Busca una cadena traducida similar a UnCheck All.
         /// </summary>
         internal static string lblUncheckAll2 {
             get {
@@ -421,11 +421,11 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Bienvenido a HelperTool
+        ///   Busca una cadena traducida similar a Welcome to HelperTool
         ///
         ///
         ///
-        ///         Disfrutalo =D.
+        ///         ENJOY IT &lt;3.
         /// </summary>
         internal static string lblWelcome {
             get {
@@ -434,7 +434,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Esta seguro de que desea activar windows?.
+        ///   Busca una cadena traducida similar a Are you sure you want to activate.
         /// </summary>
         internal static string mensajeActivacion {
             get {
@@ -443,7 +443,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Su sistema operativo {{windowsVersion}} ha sido correctamente activado.
+        ///   Busca una cadena traducida similar a Your operating system : {{windowsVersion}} has been successfully activated.
         /// </summary>
         internal static string mensajeActivacionCorrecta {
             get {
@@ -452,7 +452,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Para ver los cambios aplicados, debe reiniciar el sistema. ¿Quieres hacerlo ahora?.
+        ///   Busca una cadena traducida similar a To see the applied changes you need to restart the system. Do you want to do it now?.
         /// </summary>
         internal static string mensajeCambiosAplicadosReiniciar {
             get {
@@ -461,7 +461,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Recuerde que esta funcion es solo una demostracion de como funcionaria, esto no activa realmente tu sistema operativo. Si deseas activar tu Sistema operativo compra una licencia oficial de Windows..
+        ///   Busca una cadena traducida similar a Remember that this function is only a demonstration of how it will work, it does not actually activate your operating system. If you want to activate your operating system, buy an official Windows license..
         /// </summary>
         internal static string mensajeDemostracion {
             get {
@@ -470,7 +470,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Esta seguro de que desea desactivar widows?.
+        ///   Busca una cadena traducida similar a Are you sure you want to deactivate windows?.
         /// </summary>
         internal static string mensajeDesactivacion {
             get {
@@ -479,7 +479,16 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a ¿Desea reiniciar para aplicar los cambios?.
+        ///   Busca una cadena traducida similar a Are you sure you want to optimize now?.
+        /// </summary>
+        internal static string mensajeDeseaOptimizar {
+            get {
+                return ResourceManager.GetString("mensajeDeseaOptimizar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Do you want to restart to apply the changes?.
         /// </summary>
         internal static string mensajeDeseaReiniciar {
             get {
@@ -488,8 +497,8 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Su version de windows no ha sido encontradada!!!!!
-        ///Recuerde que este programa solo soporta licencias para:
+        ///   Busca una cadena traducida similar a Your windows version has not been found!!!!!
+        ///Remember that this program only supports licenses of :
         ///Windows 10 Pro &amp; Windows 11 Pro.
         ///Windows 10 Home &amp; Windows 11 Home.
         ///Windows 10 Enterprise &amp; Windows 11 Enterprise.
@@ -502,7 +511,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Windows ha sido correctamente Optimizado.
+        ///   Busca una cadena traducida similar a Windows has ben optimized sucefull!!.
         /// </summary>
         internal static string mensajeOptimizadoCorrectamente {
             get {
@@ -511,7 +520,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a ¿Está seguro de que desea revertir? Si lo hace, las opciones de optimización serán las mismas que antes..
+        ///   Busca una cadena traducida similar a Are you sure you want to rollback? If you do, the optimization options will be as before.
         /// </summary>
         internal static string mensajeRollBackPregunta {
             get {
@@ -520,7 +529,7 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El RollBack se ha realizado correctamente..
+        ///   Busca una cadena traducida similar a The rollback was successful!.
         /// </summary>
         internal static string mensajeRollbackSuccefull {
             get {

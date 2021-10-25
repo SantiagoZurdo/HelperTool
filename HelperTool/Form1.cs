@@ -12,11 +12,6 @@ namespace HelperToolRenovado
     {
         Navigation Navigate;
         Dictionary<string, string> diccionarioKeys;
-        DialogResult mensajeActivacion;
-        DialogResult mensajeActivacionCorrecta;
-        DialogResult mensajeDesactivacion;
-        DialogResult mensajeErrorVersion;
-        DialogResult mensajeDemostracion;
 
         public Form1()
         {
@@ -29,6 +24,7 @@ namespace HelperToolRenovado
             Navigate.AgregarVista("VistaAdvancedControls", new VistaAdvancedControls());
             Navigate.AgregarVista("VistaOptimization", new VistaOptimization());
             Navigate.Navegar("VistaInicio");
+            GetText();
             diccionarioKeys = new Dictionary<string, string>()
             {
                 {"Microsoft Windows 10 Pro", "insert valid key of windows here :D"},
@@ -108,7 +104,7 @@ namespace HelperToolRenovado
         {
             Navigate.Navegar("VistaInicio");
             MessageBox.Show(Res.mensajeDemostracion, "HelperTool Message.", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            MessageBox.Show(Res.mensajeActivacion + "(" + (GetWindowsVersion()) + ")", "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            DialogResult mensajeActivacion = MessageBox.Show(Res.mensajeActivacion + "(" + (GetWindowsVersion()) + ")", "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
             if (mensajeActivacion == System.Windows.Forms.DialogResult.Yes)
             {
                 Navigate.Navegar("VistaCarga");
@@ -125,7 +121,7 @@ namespace HelperToolRenovado
         private void btnDeactivateWindows_Click(object sender, EventArgs e)
         {
             Navigate.Navegar("VistaInicio");
-            MessageBox.Show(Res.mensajeDesactivacion, "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            DialogResult mensajeDesactivacion = MessageBox.Show(Res.mensajeDesactivacion, "HelperTool Message.", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (mensajeDesactivacion == System.Windows.Forms.DialogResult.Yes)
             {
                 CommandsCMD.RunCommand("slmgr /upk");
@@ -188,5 +184,4 @@ namespace HelperToolRenovado
             Navigate.GetVista("VistaAdvancedControls").Traducir();
         }
     }
-}
-            
+}    

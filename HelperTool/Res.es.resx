@@ -118,165 +118,168 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnActivateWindows" xml:space="preserve">
-    <value>Activate Windows</value>
+    <value>Activar Windows</value>
   </data>
   <data name="btnActivationSettings" xml:space="preserve">
-    <value>Activation Settings</value>
+    <value>Herramientas de Activacion</value>
   </data>
   <data name="btnAdvancedMenuW" xml:space="preserve">
-    <value>Advanced Menu</value>
+    <value>Menu de Opciones Avanzadas</value>
   </data>
   <data name="btnDeactivateWindows" xml:space="preserve">
-    <value>Deactivate Windows</value>
+    <value>Desactivar Windows</value>
   </data>
   <data name="btnGoAdvancedOptions" xml:space="preserve">
-    <value>Optimize Now</value>
+    <value>Optimizar Ahora</value>
   </data>
   <data name="btnOptimizeMenu" xml:space="preserve">
-    <value>Optimize Menu</value>
+    <value>Menu de Optimizacion</value>
   </data>
   <data name="btnOptimizeSettings" xml:space="preserve">
-    <value>Optimize Settings</value>
+    <value>Herramientas de Optimizacion</value>
   </data>
   <data name="btnOptmizeNow" xml:space="preserve">
-    <value>Optimize Now</value>
+    <value>Optimizar Ahora</value>
   </data>
   <data name="btnRollback2" xml:space="preserve">
-    <value>Roll Back</value>
+    <value>Deshacer</value>
   </data>
   <data name="btnShowWversion" xml:space="preserve">
-    <value>Show Windows Version</value>
+    <value>Mostrar mi version de Windows</value>
   </data>
   <data name="checkBoxDelFastAccs" xml:space="preserve">
-    <value>- Delete fast acces folder</value>
+    <value>- Eliminar acceso rapido </value>
   </data>
   <data name="checkBoxDelImage" xml:space="preserve">
-    <value>- Delete image folder</value>
+    <value>- Eliminar carpeta Imagenes</value>
   </data>
   <data name="checkBoxDelMusic" xml:space="preserve">
-    <value>- Delete music folder</value>
+    <value>- Eliminar carpeta Musica</value>
   </data>
   <data name="checkBoxDelObjects" xml:space="preserve">
-    <value>- Delete objects3D folder</value>
+    <value>- Eliminar carpeta Objetos3D</value>
   </data>
   <data name="checkBoxDelVideo" xml:space="preserve">
-    <value>- Delete video folder</value>
+    <value>- Eliminar carpeta Videos</value>
   </data>
   <data name="checkBoxDisableDefender" xml:space="preserve">
-    <value>- Disable Windows Defender</value>
+    <value>- Desactivar Windows Defeneder</value>
   </data>
   <data name="checkBoxDisableFirewall" xml:space="preserve">
-    <value>- Disable Firewall</value>
+    <value>- Desactivar Firewall</value>
   </data>
   <data name="checkBoxDisableNotifications" xml:space="preserve">
-    <value>- Disable all Windows notifications</value>
+    <value>- Desactivar notificaciones de windows</value>
   </data>
   <data name="checkBoxDisableRunasAdmin" xml:space="preserve">
-    <value>- Disable run as administrator messages</value>
+    <value>- Desactivar notificaciones de ejecutar como administrador</value>
   </data>
   <data name="checkBoxUnistallOneDrive" xml:space="preserve">
-    <value>- Unistall OneDrive</value>
+    <value>- Desinstalar OneDrive</value>
   </data>
   <data name="checkCacheDNS" xml:space="preserve">
-    <value>- Clear DNS cache</value>
+    <value>- Borrar caché DNS</value>
   </data>
   <data name="checkClearCache" xml:space="preserve">
-    <value>- Clear cache</value>
+    <value>- Borrar caché</value>
   </data>
   <data name="checkClearEvLog" xml:space="preserve">
-    <value>- Clear event log</value>
+    <value>- Borrar registro de eventos</value>
   </data>
   <data name="checkClearRecyclebin" xml:space="preserve">
-    <value>- Clear Recycle bin</value>
+    <value>- Vaciar papelera de reciclaje</value>
   </data>
   <data name="checkDeleteTempFiles" xml:space="preserve">
-    <value>- Delete temporary files</value>
+    <value>- Borrar archivos temporales</value>
   </data>
   <data name="checkDelTempFilesUpdate" xml:space="preserve">
-    <value>- Delete temporary files from windows updates</value>
+    <value>- Borrar archivos temporales de actualizaciones en windows</value>
   </data>
   <data name="checkDisableGameModeWin" xml:space="preserve">
-    <value>- Disable game Mode</value>
+    <value>- Deshabilitar modo juego de windows</value>
   </data>
   <data name="checkDisablePushN" xml:space="preserve">
-    <value>- Disable windows Push notification service</value>
+    <value>- Deshabilitar notificaciones (Windows push)</value>
   </data>
   <data name="checkDisableSearch" xml:space="preserve">
-    <value>- Disable windows search</value>
+    <value>- Deshabilitar Busqueda de Windows</value>
   </data>
   <data name="checkDisableServices" xml:space="preserve">
-    <value>- Disable unnecessary services</value>
+    <value>- Deshabilitar Servicios Innecesarios</value>
   </data>
   <data name="checkDisableSysM" xml:space="preserve">
-    <value>- Disable Sysmain</value>
+    <value>- Deshabilitar SysMain (servicio)</value>
   </data>
   <data name="checkDisableUpdates" xml:space="preserve">
-    <value>- Disable windows update</value>
+    <value>- Deshabilitar Actualizaciones de Windows</value>
   </data>
   <data name="checkEnergyPlan" xml:space="preserve">
-    <value>- Maximum performance energy plan</value>
+    <value>- Plan de energia Maximo Rendimiento</value>
   </data>
   <data name="label1" xml:space="preserve">
-    <value>Optimize Options</value>
+    <value>Opciones de Optimizacion</value>
   </data>
   <data name="label2" xml:space="preserve">
-    <value>Advanced Options</value>
+    <value>Opciones Avanzadas</value>
   </data>
   <data name="lblCheckAll" xml:space="preserve">
-    <value>Check All</value>
+    <value>Marcar todo</value>
   </data>
   <data name="lblCheckAll2" xml:space="preserve">
-    <value>Check All</value>
+    <value>Marcar todo</value>
   </data>
   <data name="lblPleaseWait" xml:space="preserve">
-    <value>Please wait this will take a few minutes ...</value>
+    <value>Esto tomara solo un par de segundos ...</value>
   </data>
   <data name="lblUncheckAll" xml:space="preserve">
-    <value>UnCheck All</value>
+    <value>Desmarcar todo</value>
   </data>
   <data name="lblUncheckAll2" xml:space="preserve">
-    <value>UnCheck All</value>
+    <value>Desmarcar todo</value>
   </data>
   <data name="lblWelcome" xml:space="preserve">
-    <value>Welcome to HelperTool
+    <value>Bienvenido a HelperTool
 
 
 
-         ENJOY IT &lt;3</value>
+         Disfrutalo =D</value>
   </data>
   <data name="mensajeActivacion" xml:space="preserve">
-    <value>Are you sure you want to activate</value>
+    <value>Esta seguro de que desea activar windows?</value>
   </data>
   <data name="mensajeActivacionCorrecta" xml:space="preserve">
-    <value>Your operating system : {{windowsVersion}} has been successfully activated</value>
+    <value>Su sistema operativo {{windowsVersion}} ha sido correctamente activado</value>
   </data>
   <data name="mensajeCambiosAplicadosReiniciar" xml:space="preserve">
-    <value>To see the applied changes you need to restart the system. Do you want to do it now?</value>
+    <value>Para ver los cambios aplicados, debe reiniciar el sistema. ¿Quieres hacerlo ahora?</value>
   </data>
   <data name="mensajeDemostracion" xml:space="preserve">
-    <value>Remember that this function is only a demonstration of how it will work, it does not actually activate your operating system. If you want to activate your operating system, buy an official Windows license.</value>
+    <value>Recuerde que esta funcion es solo una demostracion de como funcionaria, esto no activa realmente tu sistema operativo. Si deseas activar tu Sistema operativo compra una licencia oficial de Windows.</value>
   </data>
   <data name="mensajeDesactivacion" xml:space="preserve">
-    <value>Are you sure you want to deactivate windows?</value>
+    <value>Esta seguro de que desea desactivar widows?</value>
+  </data>
+  <data name="mensajeDeseaOptimizar" xml:space="preserve">
+    <value>Esta seguro de que desea optimizar ahora?</value>
   </data>
   <data name="mensajeDeseaReiniciar" xml:space="preserve">
-    <value>Do you want to restart to apply the changes?</value>
+    <value>¿Desea reiniciar para aplicar los cambios?</value>
   </data>
   <data name="mensajeErrorVersion" xml:space="preserve">
-    <value>Your windows version has not been found!!!!!
-Remember that this program only supports licenses of :
+    <value>Su version de windows no ha sido encontradada!!!!!
+Recuerde que este programa solo soporta licencias para:
 Windows 10 Pro &amp; Windows 11 Pro.
 Windows 10 Home &amp; Windows 11 Home.
 Windows 10 Enterprise &amp; Windows 11 Enterprise.
 Windows 10 Education &amp; Windows 11 Education.</value>
   </data>
   <data name="mensajeOptimizadoCorrectamente" xml:space="preserve">
-    <value>Windows has ben optimized sucefull!!</value>
+    <value>Windows ha sido correctamente Optimizado</value>
   </data>
   <data name="mensajeRollBackPregunta" xml:space="preserve">
-    <value>Are you sure you want to rollback? If you do, the optimization options will be as before</value>
+    <value>¿Está seguro de que desea deshacer los cambios? Si lo hace, las opciones de optimización serán las mismas que antes.</value>
   </data>
   <data name="mensajeRollbackSuccefull" xml:space="preserve">
-    <value>Rollback successful!!</value>
+    <value>El RollBack se ha realizado correctamente.</value>
   </data>
 </root>

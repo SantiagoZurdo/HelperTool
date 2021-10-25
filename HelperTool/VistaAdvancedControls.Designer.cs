@@ -118,14 +118,14 @@ namespace HelperToolRenovado
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Black", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(320, 12);
+            this.label2.Location = new System.Drawing.Point(0, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(255, 33);
+            this.label2.Size = new System.Drawing.Size(901, 33);
             this.label2.TabIndex = 37;
             this.label2.Text = "Advanced Options";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // checkBoxUnistallOneDrive
             // 

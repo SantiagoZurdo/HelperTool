@@ -95,15 +95,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Res.Designer.cs">
-      <DependentUpon>Res.resx</DependentUpon>
+    <Compile Include="Res.es.Designer.cs">
+      <DependentUpon>Res.es.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Res.en-US.Designer.cs">
+    <Compile Include="Res.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Res.en-US.resx</DependentUpon>
+      <DependentUpon>Res.resx</DependentUpon>
     </Compile>
     <Compile Include="ToggleButton.cs">
       <SubType>Component</SubType>
@@ -140,13 +140,13 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Res.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Res.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Res.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Res.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Res.en-US.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Res.en-US.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="VistaAdvancedControls.resx">
       <DependentUpon>VistaAdvancedControls.cs</DependentUpon>
@@ -192,10 +192,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo_ico.ico" />
-    <None Include="Resources\settings.bmp" />
-    <None Include="Resources\settings.png" />
     <None Include="recursos\settings.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
