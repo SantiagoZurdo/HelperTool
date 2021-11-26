@@ -232,6 +232,15 @@ namespace HelperToolRenovado {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a - Disable Windows Animations.
+        /// </summary>
+        internal static string checkBoxDisableWindowsAnimations {
+            get {
+                return ResourceManager.GetString("checkBoxDisableWindowsAnimations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a - Unistall OneDrive.
         /// </summary>
         internal static string checkBoxUnistallOneDrive {

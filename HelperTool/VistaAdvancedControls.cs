@@ -13,7 +13,7 @@ namespace HelperToolRenovado
         public VistaAdvancedControls()
         {
             InitializeComponent();
-            listacheckAdvanced = new List<CheckBox> { checkBoxDelMusic, checkBoxDelImage, checkBoxDelVideo, checkBoxDelObjects, checkBoxDelFastAccs,checkBoxUnistallOneDrive,checkBoxDisableFirewall,checkBoxDisableRunasAdmin, checkBoxDisableNotifications,checkBoxDisableDefender};
+            listacheckAdvanced = new List<CheckBox> { checkBoxDelMusic, checkBoxDelImage, checkBoxDelVideo, checkBoxDelObjects, checkBoxDelFastAccs,checkBoxUnistallOneDrive,checkBoxDisableFirewall,checkBoxDisableRunasAdmin, checkBoxDisableNotifications,checkBoxDisableDefender,checkBoxDisableWindowsAnimations };
 
         }
         private bool ComprobarCheckboxs(List<CheckBox> listaAdvanced)
@@ -86,16 +86,18 @@ namespace HelperToolRenovado
                     {
                         key?.SetValue("HubMode", 1);
                     }
-                    using (RegistryKey key2 = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer", true))
+                    using (RegistryKey key1 = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer", true))
                     {
-                        key2?.SetValue("HubMode", 1);
+                        key1?.SetValue("HubMode", 1);
                     }
                 }
+                //unistall one drive
                 if (checkBoxUnistallOneDrive.Checked)
                 {
                     CommandsCMD.RunCommand("taskkill / f / im OneDrive.exe");
                     CommandsCMD.RunCommand(@"%SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall");
                 }
+                //disable firewall
                 if (checkBoxDisableFirewall.Checked)
                 {
                     CommandsCMD.RunCommand("netsh advfirewall set allprofiles state off");
@@ -114,6 +116,12 @@ namespace HelperToolRenovado
                 {
                     RegistryKey key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Policies\Microsoft\Windows Defender", true);
                     key.SetValue("DisableAntiSpyware", "1");                 
+                }
+                if (checkBoxDisableWindowsAnimations.Checked)
+                {
+                    //incompleto
+                    //RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced", true);
+
                 }
             }
             catch (Exception){}
@@ -155,6 +163,8 @@ namespace HelperToolRenovado
             lblCheckAll2.Text = Res.lblCheckAll2;
             lblUncheckAll2.Text = Res.lblUncheckAll2;
             btnGoAdvancedOptions.Text = Res.btnGoAdvancedOptions;
+            checkBoxDisableWindowsAnimations.Text = Res.checkBoxDisableWindowsAnimations;
+
         }
     }
 }

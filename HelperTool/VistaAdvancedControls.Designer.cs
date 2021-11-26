@@ -42,8 +42,9 @@ namespace HelperToolRenovado
             this.checkBoxDisableDefender = new System.Windows.Forms.CheckBox();
             this.lblCheckAll2 = new System.Windows.Forms.Label();
             this.lblUncheckAll2 = new System.Windows.Forms.Label();
-            this.SwitchChecked = new HelperToolRenovado.ToggleButton();
+            this.checkBoxDisableWindowsAnimations = new System.Windows.Forms.CheckBox();
             this.btnGoAdvancedOptions = new HelperToolRenovado.FlatButton();
+            this.SwitchChecked = new HelperToolRenovado.ToggleButton();
             this.SuspendLayout();
             // 
             // checkBoxDelFastAccs
@@ -220,26 +221,20 @@ namespace HelperToolRenovado
             this.lblUncheckAll2.Text = "UnCheck All";
             this.lblUncheckAll2.Visible = false;
             // 
-            // SwitchChecked
+            // checkBoxDisableWindowsAnimations
             // 
-            this.SwitchChecked.AutoSize = true;
-            this.SwitchChecked.Location = new System.Drawing.Point(132, 507);
-            this.SwitchChecked.MinimumSize = new System.Drawing.Size(45, 22);
-            this.SwitchChecked.Name = "SwitchChecked";
-            this.SwitchChecked.OffBackColor = System.Drawing.Color.Gray;
-            this.SwitchChecked.OffBackColor1 = System.Drawing.Color.Gray;
-            this.SwitchChecked.OffToggleColor = System.Drawing.Color.Gainsboro;
-            this.SwitchChecked.OffToggleColor1 = System.Drawing.Color.Gainsboro;
-            this.SwitchChecked.OnBackColor = System.Drawing.SystemColors.Highlight;
-            this.SwitchChecked.OnBackColor1 = System.Drawing.SystemColors.Highlight;
-            this.SwitchChecked.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.SwitchChecked.OnToggleColor1 = System.Drawing.Color.WhiteSmoke;
-            this.SwitchChecked.Size = new System.Drawing.Size(45, 22);
-            this.SwitchChecked.SolidStyle = true;
-            this.SwitchChecked.SolidStyle1 = true;
-            this.SwitchChecked.TabIndex = 58;
-            this.SwitchChecked.UseVisualStyleBackColor = true;
-            this.SwitchChecked.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
+            this.checkBoxDisableWindowsAnimations.AutoSize = true;
+            this.checkBoxDisableWindowsAnimations.Enabled = false;
+            this.checkBoxDisableWindowsAnimations.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDisableWindowsAnimations.ForeColor = System.Drawing.Color.White;
+            this.checkBoxDisableWindowsAnimations.Location = new System.Drawing.Point(22, 373);
+            this.checkBoxDisableWindowsAnimations.Name = "checkBoxDisableWindowsAnimations";
+            this.checkBoxDisableWindowsAnimations.Size = new System.Drawing.Size(288, 24);
+            this.checkBoxDisableWindowsAnimations.TabIndex = 63;
+            this.checkBoxDisableWindowsAnimations.TabStop = false;
+            this.checkBoxDisableWindowsAnimations.Text = "- Disable Windows Animations";
+            this.checkBoxDisableWindowsAnimations.UseVisualStyleBackColor = true;
+            this.checkBoxDisableWindowsAnimations.CheckStateChanged += new System.EventHandler(this.Checkear);
             // 
             // btnGoAdvancedOptions
             // 
@@ -262,11 +257,33 @@ namespace HelperToolRenovado
             this.btnGoAdvancedOptions.UseVisualStyleBackColor = false;
             this.btnGoAdvancedOptions.Click += new System.EventHandler(this.btnGoAdvancedOptions_Click);
             // 
+            // SwitchChecked
+            // 
+            this.SwitchChecked.AutoSize = true;
+            this.SwitchChecked.Location = new System.Drawing.Point(132, 507);
+            this.SwitchChecked.MinimumSize = new System.Drawing.Size(45, 22);
+            this.SwitchChecked.Name = "SwitchChecked";
+            this.SwitchChecked.OffBackColor = System.Drawing.Color.Gray;
+            this.SwitchChecked.OffBackColor1 = System.Drawing.Color.Gray;
+            this.SwitchChecked.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.SwitchChecked.OffToggleColor1 = System.Drawing.Color.Gainsboro;
+            this.SwitchChecked.OnBackColor = System.Drawing.SystemColors.Highlight;
+            this.SwitchChecked.OnBackColor1 = System.Drawing.SystemColors.Highlight;
+            this.SwitchChecked.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.SwitchChecked.OnToggleColor1 = System.Drawing.Color.WhiteSmoke;
+            this.SwitchChecked.Size = new System.Drawing.Size(45, 22);
+            this.SwitchChecked.SolidStyle = true;
+            this.SwitchChecked.SolidStyle1 = true;
+            this.SwitchChecked.TabIndex = 58;
+            this.SwitchChecked.UseVisualStyleBackColor = true;
+            this.SwitchChecked.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
+            // 
             // VistaAdvancedControls
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(49)))));
+            this.Controls.Add(this.checkBoxDisableWindowsAnimations);
             this.Controls.Add(this.lblCheckAll2);
             this.Controls.Add(this.btnGoAdvancedOptions);
             this.Controls.Add(this.SwitchChecked);
@@ -305,5 +322,6 @@ namespace HelperToolRenovado
         private System.Windows.Forms.Label lblCheckAll2;
         private System.Windows.Forms.Label lblUncheckAll2;
         private FlatButton btnGoAdvancedOptions;
+        private System.Windows.Forms.CheckBox checkBoxDisableWindowsAnimations;
     }
 }

@@ -84,7 +84,6 @@ namespace HelperToolRenovado
                 subMenu.Visible = false;
             }
         }
-
         private async Task ActivateWindowsComand(string key)
         {
             await CommandsCMD.RunSlmgr("-ipk " + key);
@@ -182,5 +181,6 @@ namespace HelperToolRenovado
             Navigate.GetVista("VistaOptimization").Traducir();
             Navigate.GetVista("VistaAdvancedControls").Traducir();
         }
+        
     }
 }    
